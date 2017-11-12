@@ -98,10 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				833DE6601FB82F3000EE05CD /* Sources */,
-				833DE6341FB7974700EE05CD /* Main.storyboard */,
-				833DE6371FB7974700EE05CD /* Assets.xcassets */,
-				833DE6391FB7974700EE05CD /* LaunchScreen.storyboard */,
-				833DE63C1FB7974700EE05CD /* Info.plist */,
+				833DE6611FB82F6F00EE05CD /* Resources */,
 			);
 			path = FinalProject;
 			sourceTree = "<group>";
@@ -131,6 +128,17 @@
 				833DE65E1FB79A5A00EE05CD /* MainPageViewController.swift */,
 			);
 			path = Sources;
+			sourceTree = "<group>";
+		};
+		833DE6611FB82F6F00EE05CD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				833DE6341FB7974700EE05CD /* Main.storyboard */,
+				833DE6391FB7974700EE05CD /* LaunchScreen.storyboard */,
+				833DE63C1FB7974700EE05CD /* Info.plist */,
+				833DE6371FB7974700EE05CD /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

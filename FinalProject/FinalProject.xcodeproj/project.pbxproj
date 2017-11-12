@@ -97,8 +97,7 @@
 		833DE62F1FB7974600EE05CD /* FinalProject */ = {
 			isa = PBXGroup;
 			children = (
-				833DE6301FB7974600EE05CD /* AppDelegate.swift */,
-				833DE65E1FB79A5A00EE05CD /* MainPageViewController.swift */,
+				833DE6601FB82F3000EE05CD /* Sources */,
 				833DE6341FB7974700EE05CD /* Main.storyboard */,
 				833DE6371FB7974700EE05CD /* Assets.xcassets */,
 				833DE6391FB7974700EE05CD /* LaunchScreen.storyboard */,
@@ -123,6 +122,15 @@
 				833DE6521FB7974700EE05CD /* Info.plist */,
 			);
 			path = FinalProjectUITests;
+			sourceTree = "<group>";
+		};
+		833DE6601FB82F3000EE05CD /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				833DE6301FB7974600EE05CD /* AppDelegate.swift */,
+				833DE65E1FB79A5A00EE05CD /* MainPageViewController.swift */,
+			);
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

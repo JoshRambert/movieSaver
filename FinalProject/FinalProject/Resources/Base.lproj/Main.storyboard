@@ -108,7 +108,7 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="QOA-oP-I2s" kind="show" id="EdJ-GL-ao5"/>
+                                            <segue destination="QOA-oP-I2s" kind="show" identifier="DescriptionSegue" id="EdJ-GL-ao5"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -135,6 +135,9 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="movieListTable" destination="mGd-Mh-fkc" id="9La-Cg-JkU"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -143,7 +146,7 @@
         <!--Description-->
         <scene sceneID="11p-Bm-Q6n">
             <objects>
-                <viewController title="Description" id="QOA-oP-I2s" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="DescriptionPage" title="Description" useStoryboardIdentifierAsRestorationIdentifier="YES" id="QOA-oP-I2s" customClass="DescriptionPageViewController" customModule="FinalProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8Ti-Br-Eau">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

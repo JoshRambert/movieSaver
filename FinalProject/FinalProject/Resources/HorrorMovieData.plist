@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Description</key>
+		<string>No not Xmen....some over ambitious guy gets a little too ambitious and starts to break some rules</string>
+		<key>ImageName</key>
+		<string>nightCrawler</string>
+		<key>MovieTitle</key>
+		<string>Night Crawler</string>
+	</dict>
+	<dict>
+		<key>Description</key>
+		<string>Some Paranormal shit</string>
+		<key>ImageName</key>
+		<string>Paranormal-Activity</string>
+		<key>MovieTitle</key>
+		<string>Paranormal Activity</string>
+	</dict>
+	<dict>
+		<key>Description</key>
+		<string>Some kids get kidnapped by some weird ass skitzofrenek....or did they?</string>
+		<key>ImageName</key>
+		<string>prisoners</string>
+		<key>MovieTitle</key>
+		<string>Prisoners</string>
+	</dict>
+	<dict>
+		<key>Description</key>
+		<string>There is a paranormal dimension where some paranormal shit goes down</string>
+		<key>ImageName</key>
+		<string>Insidious</string>
+		<key>MovieTitle</key>
+		<string>Insidious</string>
+	</dict>
+	<dict>
+		<key>Description</key>
+		<string>This white bitch seduces a black man and take him into a racist neighborhood so that he could be abducted and used for a brain transplant</string>
+		<key>ImageName</key>
+		<string>getOut</string>
+		<key>MovieTitle</key>
+		<string>Get Out</string>
+	</dict>
+	<dict>
+		<key>Description</key>
+		<string>A haunted house that possess the mother of every family that decides to live there</string>
+		<key>ImageName</key>
+		<string>theConjuring</string>
+		<key>MovieTitle</key>
+		<string>The Conjuring</string>
+	</dict>
+	<dict>
+		<key>Description</key>
+		<string>Clown fucking up some children -- and then they all have naorgy</string>
+		<key>ImageName</key>
+		<string>IT</string>
+		<key>MovieTitle</key>
+		<string>IT</string>
+	</dict>
+	<dict>
+		<key>Description</key>
+		<string>Dude with a mask starts killing every teeneager in the movie</string>
+		<key>ImageName</key>
+		<string>fridayThe13th</string>
+		<key>MovieTitle</key>
+		<string>Friday the 13th</string>
+	</dict>
+	<dict>
+		<key>Description</key>
+		<string>Humans go out into space and get fucked up by some aliens</string>
+		<key>ImageName</key>
+		<string>aliens </string>
+		<key>MovieTitle</key>
+		<string>Aliens</string>
+	</dict>
+	<dict>
+		<key>Description</key>
+		<string>Scary ass movie about some possessed doll</string>
+		<key>ImageName</key>
+		<string>AnnabelleCreation</string>
+		<key>MovieTitle</key>
+		<string>Annabelle Creation</string>
+	</dict>
+</array>
+</plist>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Description</key>
+		<string>The smoothest agent in the world saving it from an oversensitve maniac</string>
+		<key>ImageName</key>
+		<string>007Skyfall</string>
+		<key>MovieTitle</key>
+		<string>007 Skyfall</string>
+	</dict>
+	<dict>
+		<key>Description</key>
+		<string>Bad ass roman fucking up an entire arena of muthafuckas HE CANT BE STOPPED</string>
+		<key>ImageName</key>
+		<string>Gladiator</string>
+		<key>MovieTitle</key>
+		<string>Gladiator</string>
+	</dict>
+	<dict>
+		<key>Description</key>
+		<string>Ahhhhhh Shiieeettttt</string>
+		<key>ImageName</key>
+		<string>justiceLeague</string>
+		<key>MovieTitle</key>
+		<string>Justice League</string>
+	</dict>
+	<dict>
+		<key>Description</key>
+		<string>Lets be Honest this is the jokers movie not batmans</string>
+		<key>ImageName</key>
+		<string>DarkKnight</string>
+		<key>MovieTitle </key>
+		<string>Dark Knight</string>
+	</dict>
+	<dict>
+		<key>Description</key>
+		<string>A whole 2 hours and a half of ass-kicking greatness</string>
+		<key>ImageName</key>
+		<string>avengers</string>
+		<key>MovieTitle</key>
+		<string>Avengers</string>
+	</dict>
+	<dict>
+		<key>Description</key>
+		<string>THIS IS!!..a mediocre movie at best </string>
+		<key>ImageName</key>
+		<string>300</string>
+		<key>MovieTitle</key>
+		<string>300</string>
+	</dict>
+	<dict>
+		<key>Description</key>
+		<string>This movie has one of the greatest action sequences i have ever seen you&apos;ll watch it oer and over again and youll know what i am talking about once you get there </string>
+		<key>ImageName</key>
+		<string>kingsman</string>
+		<key>MovieTitle</key>
+		<string>Kingsman The Secret Servic</string>
+	</dict>
+	<dict>
+		<key>Description</key>
+		<string>The prequels were pretty bad movies but that does not take away from its story..this is the conclucion to one of the best stories told in Human history....WIth a sickass fighting scene at the very end of the movie</string>
+		<key>ImageName</key>
+		<string>starWarsIII</string>
+		<key>MovieTitle </key>
+		<string>Star Wars Episode III</string>
+	</dict>
+	<dict>
+		<key>Description</key>
+		<string>The highly anticipated greatness is almost here and i cannot be more excited for i... This is going to be the hollywood event of the past Decade</string>
+		<key>ImageName</key>
+		<string>SWEpisode7</string>
+		<key>MovieTitle</key>
+		<string>Star Wars Episode 8 The Last Jedi</string>
+	</dict>
+	<dict>
+		<key>Description</key>
+		<string>The lord of the rings.....enough said a warm movie stuffed with plenty of action and a great story of resistance and overcoming...Get your family together gather round and watch al 3 of the movies in the trilogy -- just be ready to stay up for a solid 16 hours</string>
+		<key>ImageName </key>
+		<string>lordOfTheRings</string>
+		<key>MovieTitle</key>
+		<string>The Lord Of The Rings</string>
+	</dict>
+</array>
+</plist>

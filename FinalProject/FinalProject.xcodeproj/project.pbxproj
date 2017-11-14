@@ -20,6 +20,10 @@
 		833DE66B1FB85EE900EE05CD /* LibraryPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833DE66A1FB85EE900EE05CD /* LibraryPage.swift */; };
 		833DE66D1FB85F8500EE05CD /* WhatsNewPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833DE66C1FB85F8500EE05CD /* WhatsNewPage.swift */; };
 		833DE66F1FB90EDB00EE05CD /* DescriptionPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833DE66E1FB90EDB00EE05CD /* DescriptionPage.swift */; };
+		833DE6711FBB922600EE05CD /* HorrorMovieData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 833DE6701FBB922600EE05CD /* HorrorMovieData.plist */; };
+		833DE6731FBB986200EE05CD /* ActionMovieData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 833DE6721FBB986200EE05CD /* ActionMovieData.plist */; };
+		833DE6751FBB9D5D00EE05CD /* ComedyMovieData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 833DE6741FBB9D5D00EE05CD /* ComedyMovieData.plist */; };
+		833DE6771FBB9F1D00EE05CD /* SportsMovieData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 833DE6761FBB9F1D00EE05CD /* SportsMovieData.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +63,10 @@
 		833DE66A1FB85EE900EE05CD /* LibraryPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryPage.swift; sourceTree = "<group>"; };
 		833DE66C1FB85F8500EE05CD /* WhatsNewPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsNewPage.swift; sourceTree = "<group>"; };
 		833DE66E1FB90EDB00EE05CD /* DescriptionPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionPage.swift; sourceTree = "<group>"; };
+		833DE6701FBB922600EE05CD /* HorrorMovieData.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = HorrorMovieData.plist; sourceTree = "<group>"; };
+		833DE6721FBB986200EE05CD /* ActionMovieData.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ActionMovieData.plist; sourceTree = "<group>"; };
+		833DE6741FBB9D5D00EE05CD /* ComedyMovieData.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ComedyMovieData.plist; sourceTree = "<group>"; };
+		833DE6761FBB9F1D00EE05CD /* SportsMovieData.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = SportsMovieData.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +159,10 @@
 				833DE63C1FB7974700EE05CD /* Info.plist */,
 				833DE6371FB7974700EE05CD /* Assets.xcassets */,
 				833DE6621FB8307100EE05CD /* MovieData.plist */,
+				833DE6701FBB922600EE05CD /* HorrorMovieData.plist */,
+				833DE6721FBB986200EE05CD /* ActionMovieData.plist */,
+				833DE6741FBB9D5D00EE05CD /* ComedyMovieData.plist */,
+				833DE6761FBB9F1D00EE05CD /* SportsMovieData.plist */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -284,8 +296,12 @@
 			files = (
 				833DE63B1FB7974700EE05CD /* LaunchScreen.storyboard in Resources */,
 				833DE6381FB7974700EE05CD /* Assets.xcassets in Resources */,
+				833DE6751FBB9D5D00EE05CD /* ComedyMovieData.plist in Resources */,
 				833DE6361FB7974700EE05CD /* Main.storyboard in Resources */,
+				833DE6711FBB922600EE05CD /* HorrorMovieData.plist in Resources */,
+				833DE6731FBB986200EE05CD /* ActionMovieData.plist in Resources */,
 				833DE6691FB832ED00EE05CD /* Default-568h@2x.png in Resources */,
+				833DE6771FBB9F1D00EE05CD /* SportsMovieData.plist in Resources */,
 				833DE6631FB8307100EE05CD /* MovieData.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

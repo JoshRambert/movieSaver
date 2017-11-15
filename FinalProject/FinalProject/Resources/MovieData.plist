@@ -3,17 +3,15 @@
 <plist version="1.0">
 <array>
 	<dict>
-		<key>Movie Genre</key>
+		<key>Description</key>
 		<string>Horror Movies</string>
 		<key>Annabelle</key>
-		<array>
-			<dict>
-				<key>Movie Title</key>
-				<string>Annabelle Creation</string>
-				<key>Image</key>
-				<string>AnnabelleCreation</string>
-			</dict>
-		</array>
+		<dict>
+			<key>MovieTitle</key>
+			<string></string>
+			<key>ImageName</key>
+			<string></string>
+		</dict>
 	</dict>
 </array>
 </plist>

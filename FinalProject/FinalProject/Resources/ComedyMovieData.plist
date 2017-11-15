@@ -5,82 +5,112 @@
 	<dict>
 		<key>Description</key>
 		<string>This is a pretty funny movie and everbody needs to watch it</string>
-		<key>ImageName</key>
-		<string>21JumpStreet</string>
-		<key>MovieTitle</key>
-		<string>21 Jump Street</string>
+		<key>MovieInfo</key>
+		<dict>
+			<key>MovieTitle</key>
+			<string></string>
+			<key>ImageName</key>
+			<string></string>
+		</dict>
 	</dict>
 	<dict>
 		<key>Description</key>
 		<string>A house is possessed by a ghost and has its way with just about everything</string>
-		<key>ImageName</key>
-		<string>AhauntedHouse</string>
-		<key>MovieTitle</key>
-		<string>A Haunted House</string>
+		<key>MovieInfo</key>
+		<dict>
+			<key>MovieTitle</key>
+			<string>A Haunted House</string>
+			<key>ImageName</key>
+			<string>AhauntedHouse</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>Description</key>
 		<string>News Anchor on some bull shit as usual</string>
-		<key>ImageName</key>
-		<string>Anchorman</string>
-		<key>MovieTitle</key>
-		<string>Anchorman: The Legend of Ron Burgundy</string>
+		<key>MovieInfo</key>
+		<dict>
+			<key>MovieTitle</key>
+			<string>Anchorman: The Legend of Ron Burgundy</string>
+			<key>ImageName</key>
+			<string>Anchorman</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>Description</key>
 		<string>Tities</string>
-		<key>ImageName</key>
-		<string>bayWatch</string>
-		<key>MovieTitle</key>
-		<string>Baywatch</string>
+		<key>MovieInfo</key>
+		<dict>
+			<key>MovieTitle</key>
+			<string>Baywatch</string>
+			<key>ImageName</key>
+			<string>bayWatch</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>Description</key>
 		<string>Ever dreamed of the perfect party...Take that and multiply it by High School</string>
-		<key>ImageName</key>
-		<string>Project-X</string>
-		<key>MovieTitle</key>
-		<string>Project-X</string>
+		<key>MovieInfo</key>
+		<dict>
+			<key>MovieTitle</key>
+			<string>Project-X</string>
+			<key>ImageName</key>
+			<string>Project-X</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>Description</key>
 		<string>The godfather of parody movies...sit down smoke some weed and enjoy pure raunchy comedic gold</string>
-		<key>ImageName</key>
-		<string>scary-movie</string>
-		<key>MovieTitle</key>
-		<string>Scary Movie</string>
+		<key>MovieInfo</key>
+		<dict>
+			<key>MovieTitle</key>
+			<string>Scary Movie</string>
+			<key>ImageName</key>
+			<string>scary-movie</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>Description</key>
 		<string>Great family comedy..sorta be ready to cry tears of laughter</string>
-		<key>ImageName</key>
-		<string>stepBrothers</string>
-		<key>MovieTitle</key>
-		<string>Step Brothers</string>
+		<key>MovieInfo</key>
+		<dict>
+			<key>MovieTitle</key>
+			<string>Step Brothers</string>
+			<key>ImageName</key>
+			<string>stepBrothers</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>Description</key>
 		<string>A star studded cast of comedic geniuses that throw themselves into the vietnam war...Have fun</string>
-		<key>ImageName</key>
-		<string>tropicThunder</string>
-		<key>MovieTitle</key>
-		<string>Tropic Thunder</string>
+		<key>MovieInfo</key>
+		<dict>
+			<key>MovieTitle</key>
+			<string>Tropic Thunder</string>
+			<key>ImageName</key>
+			<string>tropicThunder</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>Description</key>
 		<string>If i had to describe my high school experience it would be this movie...</string>
-		<key>ImageName</key>
-		<string>superBad</string>
-		<key>MovieTitle</key>
-		<string>Super Bad</string>
+		<key>MovieInfo</key>
+		<dict>
+			<key>MovieTitle</key>
+			<string>Super Bad</string>
+			<key>ImageName</key>
+			<string>superBad</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>Description</key>
 		<string>Comedic gold for all of the wrong reasons enjoy watching this movie</string>
-		<key>ImageName</key>
-		<string>theHangover</string>
-		<key>MovieTitle</key>
-		<string>The Hangover</string>
+		<key>MovieInfo</key>
+		<dict>
+			<key>MovieTitle</key>
+			<string>The Hangover</string>
+			<key>ImageName</key>
+			<string>theHangover</string>
+		</dict>
 	</dict>
 </array>
 </plist>

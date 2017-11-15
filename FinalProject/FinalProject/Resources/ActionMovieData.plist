@@ -5,82 +5,112 @@
 	<dict>
 		<key>Description</key>
 		<string>The smoothest agent in the world saving it from an oversensitve maniac</string>
-		<key>ImageName</key>
-		<string>007Skyfall</string>
-		<key>MovieTitle</key>
-		<string>007 Skyfall</string>
+		<key>MovieInfo</key>
+		<dict>
+			<key>MovieTitle</key>
+			<string>007 Skyfall</string>
+			<key>ImageName</key>
+			<string>007Skyfall</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>Description</key>
 		<string>Bad ass roman fucking up an entire arena of muthafuckas HE CANT BE STOPPED</string>
-		<key>ImageName</key>
-		<string>Gladiator</string>
-		<key>MovieTitle</key>
-		<string>Gladiator</string>
+		<key>MovieInfo</key>
+		<dict>
+			<key>MovieTitle</key>
+			<string>Gadiator</string>
+			<key>ImageName</key>
+			<string>Gladiator</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>Description</key>
 		<string>Ahhhhhh Shiieeettttt</string>
-		<key>ImageName</key>
-		<string>justiceLeague</string>
-		<key>MovieTitle</key>
-		<string>Justice League</string>
+		<key>MovieInfo</key>
+		<dict>
+			<key>MovieTItle</key>
+			<string>Justice League</string>
+			<key>ImageName</key>
+			<string>justiceLeague</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>Description</key>
 		<string>Lets be Honest this is the jokers movie not batmans</string>
-		<key>ImageName</key>
-		<string>DarkKnight</string>
-		<key>MovieTitle </key>
-		<string>Dark Knight</string>
+		<key>MovieInfo</key>
+		<dict>
+			<key>MovieTitle</key>
+			<string>Batman: The Dark Knight</string>
+			<key>ImageName</key>
+			<string>DarkKnight</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>Description</key>
 		<string>A whole 2 hours and a half of ass-kicking greatness</string>
-		<key>ImageName</key>
-		<string>avengers</string>
-		<key>MovieTitle</key>
-		<string>Avengers</string>
+		<key>MovieInfo</key>
+		<dict>
+			<key>MovieTitle</key>
+			<string>Marvels The Avengers</string>
+			<key>ImageName</key>
+			<string>avengers</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>Description</key>
 		<string>THIS IS!!..a mediocre movie at best </string>
-		<key>ImageName</key>
-		<string>300</string>
-		<key>MovieTitle</key>
-		<string>300</string>
+		<key>MovieInfo</key>
+		<dict>
+			<key>MovieTitle</key>
+			<string>300</string>
+			<key>ImageName</key>
+			<string>300</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>Description</key>
-		<string>This movie has one of the greatest action sequences i have ever seen you&apos;ll watch it oer and over again and youll know what i am talking about once you get there </string>
-		<key>ImageName</key>
-		<string>kingsman</string>
-		<key>MovieTitle</key>
-		<string>Kingsman The Secret Servic</string>
+		<string>This movie has one of the greatest action sequences i have ever seen you&apos;ll watch it over and over again and youll know what i am talking about once you get there </string>
+		<key>MovieInfo</key>
+		<dict>
+			<key>MovieTitle</key>
+			<string>Kingsman: The Secret Service</string>
+			<key>ImageName</key>
+			<string>kingsman</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>Description</key>
 		<string>The prequels were pretty bad movies but that does not take away from its story..this is the conclucion to one of the best stories told in Human history....WIth a sickass fighting scene at the very end of the movie</string>
-		<key>ImageName</key>
-		<string>starWarsIII</string>
-		<key>MovieTitle </key>
-		<string>Star Wars Episode III</string>
+		<key>MovieInfo</key>
+		<dict>
+			<key>MovieTitle</key>
+			<string>Star Wars Episode III: Revenge of the Sith</string>
+			<key>ImageName</key>
+			<string>starWarsIII</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>Description</key>
 		<string>The highly anticipated greatness is almost here and i cannot be more excited for i... This is going to be the hollywood event of the past Decade</string>
-		<key>ImageName</key>
-		<string>SWEpisode7</string>
-		<key>MovieTitle</key>
-		<string>Star Wars Episode 8 The Last Jedi</string>
+		<key>MovieInfo</key>
+		<dict>
+			<key>MovieTitle</key>
+			<string>Star Wars Episode 8: The Last Jedi</string>
+			<key>ImageName</key>
+			<string>SWEpisode7</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>Description</key>
 		<string>The lord of the rings.....enough said a warm movie stuffed with plenty of action and a great story of resistance and overcoming...Get your family together gather round and watch al 3 of the movies in the trilogy -- just be ready to stay up for a solid 16 hours</string>
-		<key>ImageName </key>
-		<string>lordOfTheRings</string>
-		<key>MovieTitle</key>
-		<string>The Lord Of The Rings</string>
+		<key>MovieInfo</key>
+		<dict>
+			<key>MovieTitle</key>
+			<string>The Lord of The Rings</string>
+			<key>ImageName</key>
+			<string>lordOfTheRings</string>
+		</dict>
 	</dict>
 </array>
 </plist>

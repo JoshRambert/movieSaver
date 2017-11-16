@@ -11,19 +11,61 @@ import UIKit
 
 class MovieService {
     //Create the Functions that will be used to get the Title and Image from the Movies
-    func horrorMovieInfo() -> Array<(title: String, image:String)> {
-        var movie = Array<(String, String)>()
+    func horrorMovieData() -> Array<(title: String, image:String, description: String)> {
+        
+        //create an array for the Stuff
+        var movie = Array<(String, String, String)>()
+        //parse the data from the plist
         for movieValues in horrorData {
+            let description = movieValues["Description"] as! String
             let info = movieValues["MovieInfo"]
             let title = info!["MovieTitle"] as! String
             let image = info!["ImageName"] as! String
             
-            movie.append((title, image))
+            //add it to the movie array
+            movie.append((title, image, description))
             
+        }
+        //return the movie Array
+        return movie
+    }
+    
+    //Repeat the process over and over again for each of the plists
+    func actionMovieData() -> Array<(title: String, image: String, description: String)> {
+        var movie = Array<(String, String, String)>()
+        for movieValues in actionData {
+            let description = movieValues["Description"] as! String
+            let info = movieValues["MovieInfo"]
+            let title = info!["MovieTitle"] as! String
+            let image = info!["ImageName"] as! String
+            movie.append((title, image, description))
         }
         return movie
     }
     
+    func comedyMovieData() -> Array<(title: String, image: String, description: String)> {
+        var movie = Array<(String, String, String)>()
+        for movieValues in comedyData {
+            let description = movieValues["Descriptoin"] as! String
+            let info = movieValues["MovieInfo"]
+            let title = info!["MovieTitle"] as! String
+            let image = info!["ImageName"] as! String
+            movie.append((title, image, description))
+        }
+        return movie
+    }
+    
+    func spotsMovieData() -> Array<(title: String, image: String, description: String)> {
+        var movie = Array<(String, String, String)>()
+        for movieValues in sportsData {
+            let description = movieValues["Description"] as! String
+            let info = movieValues["MovieInfo"]
+            let title = info!["MovieTitle"] as! String
+            let image = info!["ImageName"] as! String
+            movie.append((title, image, description))
+        }
+        return movie
+    }
     
     //create the initilizer and the private properties
     private init() {

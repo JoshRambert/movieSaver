@@ -64,8 +64,50 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ip6-Rn-ien">
+                                <rect key="frame" x="0.0" y="64" width="375" height="40"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="goj-dV-tYd">
+                                        <rect key="frame" x="30" y="5" width="45" height="30"/>
+                                        <state key="normal" title="Horror"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cwp-rh-Tw3">
+                                        <rect key="frame" x="117.5" y="5" width="44" height="30"/>
+                                        <state key="normal" title="Action"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3ca-Lh-l2h">
+                                        <rect key="frame" x="299" y="5" width="46" height="30"/>
+                                        <state key="normal" title="Sports"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5e2-j2-712">
+                                        <rect key="frame" x="201" y="5" width="58" height="30"/>
+                                        <state key="normal" title="Comedy"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="3ca-Lh-l2h" firstAttribute="leading" secondItem="5e2-j2-712" secondAttribute="trailing" constant="39.600000000000001" id="1sA-Am-A9u"/>
+                                    <constraint firstItem="goj-dV-tYd" firstAttribute="leading" secondItem="Ip6-Rn-ien" secondAttribute="leading" constant="30" id="339-Vd-vFC"/>
+                                    <constraint firstAttribute="bottom" secondItem="5e2-j2-712" secondAttribute="bottom" constant="5" id="8wn-Qp-mew"/>
+                                    <constraint firstItem="Cwp-rh-Tw3" firstAttribute="leading" secondItem="goj-dV-tYd" secondAttribute="trailing" constant="42.5" id="Cyg-rK-pe1"/>
+                                    <constraint firstItem="Cwp-rh-Tw3" firstAttribute="top" secondItem="Ip6-Rn-ien" secondAttribute="top" constant="5" id="DA8-ug-8Ej"/>
+                                    <constraint firstAttribute="bottom" secondItem="goj-dV-tYd" secondAttribute="bottom" constant="5" id="Dee-GW-aI9"/>
+                                    <constraint firstItem="3ca-Lh-l2h" firstAttribute="top" secondItem="Ip6-Rn-ien" secondAttribute="top" constant="5" id="YfH-h5-vdJ"/>
+                                    <constraint firstItem="goj-dV-tYd" firstAttribute="centerY" secondItem="Ip6-Rn-ien" secondAttribute="centerY" id="c5r-FP-RWU"/>
+                                    <constraint firstItem="Cwp-rh-Tw3" firstAttribute="centerY" secondItem="Ip6-Rn-ien" secondAttribute="centerY" id="dfd-82-n4y"/>
+                                    <constraint firstAttribute="bottom" secondItem="3ca-Lh-l2h" secondAttribute="bottom" constant="5" id="ekI-QA-vcz"/>
+                                    <constraint firstAttribute="height" constant="40" id="i0W-Zv-gTB"/>
+                                    <constraint firstItem="5e2-j2-712" firstAttribute="centerY" secondItem="Ip6-Rn-ien" secondAttribute="centerY" id="jSA-MZ-Kz7"/>
+                                    <constraint firstItem="5e2-j2-712" firstAttribute="top" secondItem="Ip6-Rn-ien" secondAttribute="top" constant="5" id="nu8-M1-Vuh"/>
+                                    <constraint firstItem="3ca-Lh-l2h" firstAttribute="centerY" secondItem="Ip6-Rn-ien" secondAttribute="centerY" id="s5M-VM-E5g"/>
+                                    <constraint firstItem="goj-dV-tYd" firstAttribute="top" secondItem="Ip6-Rn-ien" secondAttribute="top" constant="5" id="tkH-Be-kMJ"/>
+                                    <constraint firstAttribute="trailing" secondItem="3ca-Lh-l2h" secondAttribute="trailing" constant="30" id="uOs-Mh-mss"/>
+                                    <constraint firstAttribute="bottom" secondItem="Cwp-rh-Tw3" secondAttribute="bottom" constant="5" id="vAJ-3a-3HX"/>
+                                    <constraint firstItem="5e2-j2-712" firstAttribute="leading" secondItem="Cwp-rh-Tw3" secondAttribute="trailing" constant="39.600000000000001" id="ySu-do-3zO"/>
+                                </constraints>
+                            </view>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="mGd-Mh-fkc">
-                                <rect key="frame" x="30" y="64" width="315" height="603"/>
+                                <rect key="frame" x="30" y="104" width="315" height="563"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="MovieCell" rowHeight="270" id="Re8-rM-VTx">
@@ -107,10 +149,13 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="Ip6-Rn-ien" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Bhv-xD-E9T"/>
                             <constraint firstItem="mGd-Mh-fkc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="Kiq-eZ-6XQ"/>
+                            <constraint firstItem="Ip6-Rn-ien" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Lzp-RF-8SG"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="mGd-Mh-fkc" secondAttribute="trailing" constant="30" id="NMz-MU-q7i"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="mGd-Mh-fkc" secondAttribute="bottom" id="Xuz-oO-9Hh"/>
-                            <constraint firstItem="mGd-Mh-fkc" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="j91-36-ghl"/>
+                            <constraint firstItem="mGd-Mh-fkc" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="h7T-7V-0ab"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Ip6-Rn-ien" secondAttribute="trailing" id="qEk-ZO-deO"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -132,7 +177,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="184" y="45"/>
+            <point key="canvasLocation" x="183.19999999999999" y="44.527736131934034"/>
         </scene>
         <!--DescriptionPage-->
         <scene sceneID="11p-Bm-Q6n">

@@ -134,10 +134,10 @@
             </objects>
             <point key="canvasLocation" x="184" y="45"/>
         </scene>
-        <!--Description-->
+        <!--DescriptionPage-->
         <scene sceneID="11p-Bm-Q6n">
             <objects>
-                <viewController storyboardIdentifier="DescriptionPage" title="Description" useStoryboardIdentifierAsRestorationIdentifier="YES" id="QOA-oP-I2s" customClass="DescriptionPageViewController" customModule="FinalProject" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="DescriptionPage" title="DescriptionPage" useStoryboardIdentifierAsRestorationIdentifier="YES" id="QOA-oP-I2s" customClass="DescriptionPageViewController" customModule="FinalProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8Ti-Br-Eau">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

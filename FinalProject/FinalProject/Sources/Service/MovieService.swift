@@ -46,7 +46,7 @@ class MovieService {
     func comedyMovieData() -> Array<(title: String, image: String, description: String)> {
         var movie = Array<(String, String, String)>()
         for movieValues in comedyData {
-            let description = movieValues["Descriptoin"] as! String
+            let description = movieValues["Description"] as! String
             let info = movieValues["MovieInfo"]
             let title = info!["MovieTitle"] as! String
             let image = info!["ImageName"] as! String
@@ -55,7 +55,7 @@ class MovieService {
         return movie
     }
     
-    func spotsMovieData() -> Array<(title: String, image: String, description: String)> {
+    func sportsMovieData() -> Array<(title: String, image: String, description: String)> {
         var movie = Array<(String, String, String)>()
         for movieValues in sportsData {
             let description = movieValues["Description"] as! String

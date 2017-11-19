@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		83367E481FBE81AF00C9FA20 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83367E471FBE81AF00C9FA20 /* MovieCell.swift */; };
 		833DE6311FB7974600EE05CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833DE6301FB7974600EE05CD /* AppDelegate.swift */; };
 		833DE6361FB7974700EE05CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 833DE6341FB7974700EE05CD /* Main.storyboard */; };
 		833DE6381FB7974700EE05CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 833DE6371FB7974700EE05CD /* Assets.xcassets */; };
@@ -44,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		83367E471FBE81AF00C9FA20 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 		833DE62D1FB7974600EE05CD /* FinalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		833DE6301FB7974600EE05CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		833DE6351FB7974700EE05CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -94,6 +96,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		83367E461FBE816A00C9FA20 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				83367E471FBE81AF00C9FA20 /* MovieCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		833DE6241FB7974600EE05CD = {
 			isa = PBXGroup;
 			children = (
@@ -145,6 +155,7 @@
 		833DE6601FB82F3000EE05CD /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				83367E461FBE816A00C9FA20 /* View */,
 				833DE6651FB831EA00EE05CD /* Service */,
 				833DE6641FB8319000EE05CD /* Controller */,
 			);
@@ -327,6 +338,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83367E481FBE81AF00C9FA20 /* MovieCell.swift in Sources */,
 				833DE6671FB8320700EE05CD /* MovieService.swift in Sources */,
 				833DE66F1FB90EDB00EE05CD /* DescriptionPage.swift in Sources */,
 				833DE65F1FB79A5A00EE05CD /* MainPageViewController.swift in Sources */,

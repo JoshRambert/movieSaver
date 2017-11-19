@@ -11,7 +11,7 @@ import UIKit
 
 class MovieService {
     //Create the Functions that will be used to get the Title and Image from the Movies
-    func horrorMovieData() -> Array<(title: String, image:String, description: String)> {
+    func horrorMovieData() -> Array<(title: String, image: String, description: String)> {
         
         //create an array for the Stuff
         var movie = Array<(String, String, String)>()

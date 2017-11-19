@@ -103,14 +103,14 @@
                                     <constraint firstItem="goj-dV-tYd" firstAttribute="top" secondItem="Ip6-Rn-ien" secondAttribute="top" constant="5" id="tkH-Be-kMJ"/>
                                     <constraint firstAttribute="trailing" secondItem="3ca-Lh-l2h" secondAttribute="trailing" constant="30" id="uOs-Mh-mss"/>
                                     <constraint firstAttribute="bottom" secondItem="Cwp-rh-Tw3" secondAttribute="bottom" constant="5" id="vAJ-3a-3HX"/>
-                                    <constraint firstItem="5e2-j2-712" firstAttribute="leading" secondItem="Cwp-rh-Tw3" secondAttribute="trailing" constant="39.600000000000001" id="ySu-do-3zO"/>
+                                    <constraint firstItem="5e2-j2-712" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Cwp-rh-Tw3" secondAttribute="trailing" symbolic="YES" id="ySu-do-3zO"/>
                                 </constraints>
                             </view>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="mGd-Mh-fkc">
                                 <rect key="frame" x="30" y="104" width="315" height="563"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="MovieCell" rowHeight="270" id="Re8-rM-VTx">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="MovieCell" rowHeight="270" id="Re8-rM-VTx" customClass="MovieCell" customModule="FinalProject" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="315" height="270"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Re8-rM-VTx" id="gNS-pU-a3U">
@@ -124,23 +124,39 @@
                                                         <constraint firstAttribute="width" constant="320" id="wjR-7E-HxC"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2RV-rV-PMU">
-                                                    <rect key="frame" x="0.0" y="236" width="39.5" height="25.5"/>
+                                                <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="px4-2v-MG2">
+                                                    <rect key="frame" x="223" y="236" width="88" height="25.5"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2RV-rV-PMU">
+                                                    <rect key="frame" x="100" y="236" width="115" height="25.5"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
                                             <constraints>
+                                                <constraint firstItem="2RV-rV-PMU" firstAttribute="centerX" secondItem="gNS-pU-a3U" secondAttribute="centerX" id="2fC-MJ-KdT"/>
+                                                <constraint firstItem="px4-2v-MG2" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="2RV-rV-PMU" secondAttribute="trailing" constant="8" symbolic="YES" id="4t6-7f-ali"/>
                                                 <constraint firstItem="2RV-rV-PMU" firstAttribute="top" secondItem="nam-GV-VmN" secondAttribute="bottom" constant="8" id="8ZO-EK-U36"/>
-                                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="2RV-rV-PMU" secondAttribute="trailing" constant="20" id="Duj-pp-vLk"/>
-                                                <constraint firstItem="2RV-rV-PMU" firstAttribute="leading" secondItem="gNS-pU-a3U" secondAttribute="leading" id="SUx-9P-izM"/>
+                                                <constraint firstAttribute="trailing" relation="lessThanOrEqual" secondItem="2RV-rV-PMU" secondAttribute="trailing" constant="100" id="Duj-pp-vLk"/>
+                                                <constraint firstItem="2RV-rV-PMU" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="gNS-pU-a3U" secondAttribute="leading" id="SUx-9P-izM"/>
+                                                <constraint firstAttribute="trailing" secondItem="px4-2v-MG2" secondAttribute="trailing" constant="4" id="bNm-6M-5Th"/>
                                                 <constraint firstItem="nam-GV-VmN" firstAttribute="top" secondItem="gNS-pU-a3U" secondAttribute="top" constant="8" id="bm0-iz-ekI"/>
                                                 <constraint firstAttribute="bottom" secondItem="2RV-rV-PMU" secondAttribute="bottom" constant="8" id="cbn-rY-p0X"/>
                                                 <constraint firstItem="nam-GV-VmN" firstAttribute="centerX" secondItem="gNS-pU-a3U" secondAttribute="centerX" id="iGE-5M-XhS"/>
+                                                <constraint firstAttribute="bottom" secondItem="2RV-rV-PMU" secondAttribute="bottom" constant="8" id="k4h-DD-QAP"/>
+                                                <constraint firstItem="px4-2v-MG2" firstAttribute="top" secondItem="nam-GV-VmN" secondAttribute="bottom" constant="8" id="pUU-3C-eJD"/>
+                                                <constraint firstAttribute="bottom" secondItem="px4-2v-MG2" secondAttribute="bottom" constant="8" id="xVg-vB-Fsx"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
+                                            <outlet property="hiddenDescription" destination="px4-2v-MG2" id="zWF-v4-UM0"/>
+                                            <outlet property="hiddenLabel" destination="px4-2v-MG2" id="sMZ-Qm-T5W"/>
+                                            <outlet property="movieImage" destination="nam-GV-VmN" id="8lP-3L-uud"/>
+                                            <outlet property="titleLabel" destination="2RV-rV-PMU" id="Tyw-Uj-s74"/>
                                             <segue destination="QOA-oP-I2s" kind="show" identifier="DescriptionSegue" id="EdJ-GL-ao5"/>
                                         </connections>
                                     </tableViewCell>
@@ -172,7 +188,11 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="actionButton" destination="Cwp-rh-Tw3" id="OZN-8c-bby"/>
+                        <outlet property="comedyButton" destination="5e2-j2-712" id="2Gi-wt-kzm"/>
+                        <outlet property="horrorButton" destination="goj-dV-tYd" id="hqD-6g-YPL"/>
                         <outlet property="movieListTable" destination="mGd-Mh-fkc" id="9La-Cg-JkU"/>
+                        <outlet property="sportsButton" destination="3ca-Lh-l2h" id="dFe-q6-gIr"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

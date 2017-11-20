@@ -13,7 +13,6 @@ class DescriptionPageViewController: UIViewController{
     //get the data from the data cells and displat it within the ViewController
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         movieTitle.text! = getTitle
         movieDescription.text! = getDescription
         movieImage.image = getImage

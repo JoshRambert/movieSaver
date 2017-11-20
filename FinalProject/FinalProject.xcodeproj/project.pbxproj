@@ -165,9 +165,9 @@
 		833DE6611FB82F6F00EE05CD /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				833DE63C1FB7974700EE05CD /* Info.plist */,
 				833DE6341FB7974700EE05CD /* Main.storyboard */,
 				833DE6391FB7974700EE05CD /* LaunchScreen.storyboard */,
-				833DE63C1FB7974700EE05CD /* Info.plist */,
 				833DE6371FB7974700EE05CD /* Assets.xcassets */,
 				833DE6621FB8307100EE05CD /* MovieData.plist */,
 				833DE6701FBB922600EE05CD /* HorrorMovieData.plist */,
@@ -511,7 +511,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = FinalProject/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/FinalProject/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.joshuasCompany.FinalProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -525,7 +525,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = FinalProject/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/FinalProject/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.joshuasCompany.FinalProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";

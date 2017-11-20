@@ -32,22 +32,37 @@ class MainPageViewController: UIViewController, UITableViewDataSource, UITableVi
         //Whenever the butotn is clicked that corresponds with the gnere of the movie change the contents of the
         //Cell view
         if horrorButton.isTouchInside {
-            cell.textLabel?.text = horrorValues.title
+            let titleName = horrorValues.title
             let imageName = horrorValues.image
+            let description = horrorValues.description
             cell.getImage(forImageName: imageName)
+            cell.getTitle(forTitleName: titleName)
+            cell.getDescription(forDescription: description)
             
         } else if actionButton.isTouchInside {
-            cell.textLabel?.text = actionValues.title
+            let titleName = actionValues.title
+            let description = actionValues.description
             let imageName = actionValues.image
             cell.getImage(forImageName: imageName)
+            cell.getTitle(forTitleName: titleName)
+            cell.getDescription(forDescription: description)
+            
         } else if comedyButton.isTouchInside {
-            cell.textLabel?.text = comedyValues.title
+            let titleName = comedyValues.title
+            let description = comedyValues.description
             let imageName = comedyValues.image
+            cell.getTitle(forTitleName: titleName)
+            cell.getDescription(forDescription: description)
             cell.getImage(forImageName: imageName)
+            
         } else if sportsButton.isTouchInside {
-            cell.textLabel?.text = sportsValues.title
+            let titleName = sportsValues.title
+            let description = sportsValues.description
             let imageName = sportsValues.image
             cell.getImage(forImageName: imageName)
+            cell.getTitle(forTitleName: titleName)
+            cell.getDescription(forDescription: description)
+            
         }
         return cell
     }
@@ -56,10 +71,16 @@ class MainPageViewController: UIViewController, UITableViewDataSource, UITableVi
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "DescriptionSegue" {
             let descriptionPageViewController = segue.destination as! DescriptionPageViewController
-            
-            //send te data over to the description page -- and send the data back when it is deselected
+            //send the data over to the description page -- and send the data back when it is deselected
+
+            //Get a reference to the to the movieListTable and the Cells within them -- then send the data
+            let movieCell = movieListTable.dequeueReusableCell(withIdentifier: "MovieCell") as! MovieCell
+            descriptionPageViewController.getTitle = movieCell.titleLabel!.text
+            descriptionPageViewController.getDescription = movieCell.hiddenDescription!.text
+            descriptionPageViewController.getImage = movieCell.movieImage!.image
         }
     }
+    
     //Create an outlet for the Table in the ViewController
     @IBOutlet private weak var movieListTable: UITableView!
     

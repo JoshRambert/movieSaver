@@ -245,6 +245,11 @@
                     <navigationItem key="navigationItem" title="Description Page" id="s4T-JC-POw">
                         <barButtonItem key="rightBarButtonItem" title="Save" id="ejb-Ny-hYg"/>
                     </navigationItem>
+                    <connections>
+                        <outlet property="movieDescription" destination="rYF-tN-whK" id="NeE-1f-RWw"/>
+                        <outlet property="movieImage" destination="N5L-dV-BrM" id="NEC-vX-gzR"/>
+                        <outlet property="movieTitle" destination="06I-Dz-mA5" id="NNJ-8H-mj6"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Mxy-dX-XxP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

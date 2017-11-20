@@ -14,8 +14,14 @@ class MovieCell: UITableViewCell {
     func getImage(forImageName imageName: String){
         movieImage.image = UIImage(named: imageName)
     }
+    func getTitle(forTitleName titleName: String) {
+        titleLabel?.text = titleName
+    }
+    func getDescription(forDescription description: String){
+        hiddenDescription?.text = description
+    }
     //Properties
-    @IBOutlet private weak var titleLabel: UILabel!
-    @IBOutlet private weak var hiddenDescription: UILabel!
-    @IBOutlet private weak var movieImage: UIImageView!
+    @IBOutlet public weak var titleLabel: UILabel!
+    @IBOutlet public weak var hiddenDescription: UILabel!
+    @IBOutlet public weak var movieImage: UIImageView!
 }

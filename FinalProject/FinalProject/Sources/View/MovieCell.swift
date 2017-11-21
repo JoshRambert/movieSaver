@@ -30,7 +30,7 @@ class MovieCell: UITableViewCell {
         persistentContainer.loadPersistentStores(completionHandler: { (storeDescription, error) in
             //Executed after the stores are loaded
             guard error == nil else {
-                fatalError("Error loading persistent store \(error!.localizedDescription)")
+                fatalError("Couldn't load persistent store container \(error!.localizedDescription)")
             }
             //Set the view context to merge from its parents
             persistentContainer.viewContext.automaticallyMergesChangesFromParent = true
@@ -46,7 +46,7 @@ class MovieCell: UITableViewCell {
                     count = try context.count(for: fetchRequest)
                 }
                 catch let error{
-                    fatalError("Error getting a count of MovieInfo \(error.localizedDescription)")
+                    fatalError("Error getting amount of MovieInfo \(error.localizedDescription)")
                 }
                 //If the count is 0 insert the data.
                 guard count == 0 else{
@@ -58,7 +58,7 @@ class MovieCell: UITableViewCell {
                 //set the movie stuff from the movieCell stuff
                 movieInfo.title = self.titleLabel?.text
                 movieInfo.descrip = self.hiddenDescription?.text
-                //add image
+                //movieInfo.image = self.movieImage!.image
             }
         })
     }

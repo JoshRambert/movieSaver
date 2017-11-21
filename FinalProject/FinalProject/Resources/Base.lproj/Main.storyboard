@@ -111,27 +111,27 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="MovieCell" rowHeight="270" id="Re8-rM-VTx" customClass="MovieCell" customModule="FinalProject" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="320" height="270"/>
+                                        <rect key="frame" x="0.0" y="28" width="325" height="270"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Re8-rM-VTx" id="gNS-pU-a3U">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="269.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="325" height="269.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="nam-GV-VmN">
-                                                    <rect key="frame" x="0.0" y="8" width="320" height="220"/>
+                                                    <rect key="frame" x="2.5" y="8" width="320" height="220"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="220" id="BXI-CX-Pjn"/>
                                                         <constraint firstAttribute="width" constant="320" id="wjR-7E-HxC"/>
                                                     </constraints>
                                                 </imageView>
                                                 <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="px4-2v-MG2">
-                                                    <rect key="frame" x="228" y="236" width="88" height="25.5"/>
+                                                    <rect key="frame" x="233" y="236" width="88" height="25.5"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2RV-rV-PMU">
-                                                    <rect key="frame" x="100" y="236" width="120" height="25.5"/>
+                                                    <rect key="frame" x="100" y="236" width="125" height="25.5"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>

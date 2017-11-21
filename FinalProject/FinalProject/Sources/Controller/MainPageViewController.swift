@@ -66,6 +66,7 @@ class MainPageViewController: UIViewController, UITableViewDataSource, UITableVi
         }
         //MARK: Add a gesture that when the movieCell is held down it will bring up an alert view that will give the user the option to save the contents of that movieCell
         
+        
         return cell
     }
     

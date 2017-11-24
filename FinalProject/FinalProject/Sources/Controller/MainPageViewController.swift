@@ -13,7 +13,7 @@ class MainPageViewController: UIViewController, UITableViewDataSource, UITableVi
     //Setup the functions for the TableView
     func tableView(_ tableView: UITableView, numberOfRowsInSection: Int) -> Int {
         //return the Amount of Data from the MovieService Class
-        return MovieService.shared.sportsMovieData().count
+        return MovieService.shared.actionMovieData().count
     }
     
     func numberOfSections(in tableView: UITableView) -> Int {
@@ -27,7 +27,7 @@ class MainPageViewController: UIViewController, UITableViewDataSource, UITableVi
         let horrorValues = MovieService.shared.horrorMovieData()[indexPath.row]
         let actionValues = MovieService.shared.actionMovieData()[indexPath.row]
         let comedyValues = MovieService.shared.comedyMovieData()[indexPath.row]
-        let sportsValues = MovieService.shared.sportsMovieData()[indexPath.row]
+        //let sportsValues = MovieService.shared.sportsMovieData()[indexPath.row]
         
         //Whenever the butotn is clicked that corresponds with the gnere of the movie change the contents of the
         //Cell view
@@ -56,13 +56,13 @@ class MainPageViewController: UIViewController, UITableViewDataSource, UITableVi
             cell.getImage(forImageName: imageName)
             
         } else if sportsButton.isTouchInside {
-            let titleName = sportsValues.title
+           /* let titleName = sportsValues.title
             let description = sportsValues.description
             let imageName = sportsValues.image
             cell.getImage(forImageName: imageName)
             cell.getTitle(forTitleName: titleName)
             cell.getDescription(forDescription: description)
-            
+            */
         }
         //MARK: Add a gesture that when the movieCell is held down it will bring up an alert view that will give the user the option to save the contents of that movieCell
         

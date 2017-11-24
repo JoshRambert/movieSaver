@@ -6,111 +6,91 @@
 		<key>Description</key>
 		<string>No not Xmen....some over ambitious guy gets a little too ambitious and starts to break some rules</string>
 		<key>MovieInfo</key>
-		<dict>
-			<key>MovieTitle</key>
+		<array>
 			<string>Night Crawler</string>
-			<key>ImageName</key>
 			<string>nightCrawler</string>
-		</dict>
+		</array>
 	</dict>
 	<dict>
 		<key>Description</key>
 		<string>Some Paranormal shit</string>
 		<key>MovieInfo</key>
-		<dict>
-			<key>MovieTitle</key>
+		<array>
 			<string>Paranormal Activity</string>
-			<key>ImageName</key>
 			<string>Paranormal-Activity</string>
-		</dict>
+		</array>
 	</dict>
 	<dict>
 		<key>Description</key>
 		<string>Some kids get kidnapped by some weird ass skitzofrenek....or did they?</string>
 		<key>MovieInfo</key>
-		<dict>
-			<key>MovieTitle</key>
+		<array>
 			<string>Prisoners</string>
-			<key>ImageName</key>
 			<string>prisoners</string>
-		</dict>
+		</array>
 	</dict>
 	<dict>
 		<key>Description</key>
 		<string>There is a paranormal dimension where some paranormal shit goes down</string>
-		<key>New item - 2</key>
-		<dict>
-			<key>MovieTitle</key>
+		<key>MovieInfo</key>
+		<array>
 			<string>Insidious</string>
-			<key>ImageName</key>
 			<string>Insidious</string>
-		</dict>
+		</array>
 	</dict>
 	<dict>
 		<key>Description</key>
 		<string>This white bitch seduces a black man and take him into a racist neighborhood so that he could be abducted and used for a brain transplant</string>
 		<key>MovieInfo</key>
-		<dict>
-			<key>MovieTitle</key>
+		<array>
 			<string>Get Out</string>
-			<key>ImageName</key>
 			<string>getOut</string>
-		</dict>
+		</array>
 	</dict>
 	<dict>
 		<key>Description</key>
 		<string>A haunted house that possess the mother of every family that decides to live there</string>
 		<key>MovieInfo</key>
-		<dict>
-			<key>MovieTitle</key>
+		<array>
 			<string>The Conjuring</string>
-			<key>ImageName</key>
 			<string>theConjuring</string>
-		</dict>
+		</array>
 	</dict>
 	<dict>
 		<key>Description</key>
 		<string>Clown fucking up some children -- and then they all have naorgy</string>
 		<key>MovieInfo</key>
-		<dict>
-			<key>MovieTitle</key>
+		<array>
 			<string>IT</string>
-			<key>ImageName</key>
 			<string>IT</string>
-		</dict>
+		</array>
 	</dict>
 	<dict>
 		<key>Description</key>
 		<string>Dude with a mask starts killing every teeneager in the movie</string>
 		<key>MovieInfo</key>
-		<dict>
-			<key>MovieTitle</key>
+		<array>
 			<string>Friday the 13th</string>
-			<key>ImageName</key>
 			<string>fridayThe13th</string>
-		</dict>
+		</array>
 	</dict>
 	<dict>
 		<key>Description</key>
 		<string>Humans go out into space and get fucked up by some aliens</string>
 		<key>MovieInfo</key>
-		<dict>
-			<key>MovieTitle</key>
+		<array>
 			<string>Aliens</string>
-			<key>ImageName</key>
 			<string>aliens</string>
-		</dict>
+		</array>
 	</dict>
 	<dict>
 		<key>Description</key>
 		<string>Scary ass movie about some possessed doll</string>
 		<key>MovieInfo</key>
-		<dict>
-			<key>MovieTitle</key>
+		<array>
 			<string>Annabelle Creation</string>
-			<key>ImageName</key>
 			<string>AnnabelleCreation</string>
-		</dict>
+		</array>
 	</dict>
 </array>
 </plist>

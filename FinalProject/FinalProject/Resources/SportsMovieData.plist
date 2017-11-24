@@ -4,113 +4,93 @@
 <array>
 	<dict>
 		<key>Description</key>
-		<string>I jack, I rob, I sin, im jacki robinson except when i steal base i dodg the pen</string>
-		<key>MoveInfo</key>
-		<dict>
-			<key>MovieTitle</key>
-			<string>42</string>
-			<key>ImageName</key>
+		<string>I jack, I rob, I sin, im jacki robinson except when I steal base I dodge the pen</string>
+		<key>MovieInfo</key>
+		<array>
+			<string>Jacki Robinson Movie</string>
 			<string>42Movie</string>
-		</dict>
+		</array>
 	</dict>
 	<dict>
 		<key>Description</key>
 		<string>Crazy what happens when you mix athletics and hollywood</string>
 		<key>MovieInfo</key>
-		<dict>
-			<key>MovieTitle</key>
+		<array>
 			<string>Any Given Sunday</string>
-			<key>ImageName</key>
 			<string>anyGivenSunday</string>
-		</dict>
+		</array>
 	</dict>
 	<dict>
 		<key>Description</key>
 		<string>One of the best sports movies in recent memory. A great combination of nostalgia and new school swag, cant wait until the sequel</string>
 		<key>MovieInfo</key>
-		<dict>
-			<key>MovieTitle</key>
+		<array>
 			<string>Creed</string>
-			<key>ImageName</key>
 			<string>creed</string>
-		</dict>
+		</array>
 	</dict>
 	<dict>
 		<key>Description</key>
 		<string>Recognized as one of the most inpirational movies in our generation. Nothing comes close to how friday night lights can capture the hearts and attention of its audience</string>
 		<key>MovieInfo</key>
-		<dict>
-			<key>MovieTitle</key>
+		<array>
 			<string>Friday Night Lights</string>
-			<key>ImageName</key>
 			<string>fridayNightLights</string>
-		</dict>
+		</array>
 	</dict>
 	<dict>
 		<key>Description</key>
 		<string>Jesus Shuttlesworth top recruit in basketball is looking for a way to college but has to overcome a dark family past and the struggles of everyday life</string>
 		<key>MovieInfo</key>
-		<dict>
-			<key>MovieTitle</key>
+		<array>
 			<string>He Got Game</string>
-			<key>ImageName</key>
 			<string>heGotGame</string>
-		</dict>
+		</array>
 	</dict>
 	<dict>
 		<key>Description</key>
 		<string>Watch it</string>
 		<key>MovieInfo</key>
-		<dict>
-			<key>MovieTitle</key>
+		<array>
 			<string>Hoop Dreams </string>
-			<key>ImageName</key>
 			<string>hoopDreams</string>
-		</dict>
+		</array>
 	</dict>
 	<dict>
 		<key>Description</key>
 		<string>A legendary story of a legendary runner. Prefontaine is the most iconic figure in USA track anf Field History and this movie paints the picture of his ascendance and tragic end</string>
 		<key>MovieInfo</key>
-		<dict>
-			<key>MovieTitle</key>
+		<array>
 			<string>Prefontaine</string>
-			<key>ImageName</key>
 			<string>pre</string>
-		</dict>
+		</array>
 	</dict>
 	<dict>
 		<key>Description</key>
 		<string>The story of a athlete who persisted until he played football for his dream school the University of Notre Dame</string>
 		<key>MovieInfo</key>
-		<dict>
-			<key>MovieTitle</key>
+		<array>
 			<string>Rudy</string>
-			<key>ImageName</key>
 			<string>rudy</string>
-		</dict>
+		</array>
 	</dict>
 	<dict>
 		<key>Description</key>
 		<string>Another great improbable come up story highlighting a the life of a future NFL star and what he went through to get to that point</string>
 		<key>MovieInfo</key>
-		<dict>
-			<key>MovieTitle</key>
+		<array>
 			<string>The Blind Side </string>
-			<key>ImageName</key>
 			<string>theBlindSide </string>
-		</dict>
+		</array>
 	</dict>
 	<dict>
 		<key>Description</key>
-		<string>A bunch of convicts trying to play football in order to get out of jail...More of a comdic movie than a sports movie</string>
+		<string>A bunch of convicts trying to play football in order to get out of jail...More of a comedic movie than a sports movie</string>
 		<key>MovieInfo</key>
-		<dict>
-			<key>MovieTitle</key>
+		<array>
 			<string>The Longest Yard</string>
-			<key>ImageName</key>
 			<string>theLongestYard</string>
-		</dict>
+		</array>
 	</dict>
 </array>
 </plist>

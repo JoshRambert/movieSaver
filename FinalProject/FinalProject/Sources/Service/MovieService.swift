@@ -18,9 +18,9 @@ class MovieService {
         //parse the data from the plist
         for movieValues in horrorData {
             let description = movieValues["Description"] as! String
-            let info = movieValues["MovieInfo"]
-            let title = info!["MovieTitle"] as! String
-            let image = info!["ImageName"] as! String
+            let info = movieValues["MovieInfo"] as! Array<String>
+            let title = info[0]
+            let image = info[1]
             
             //add it to the movie array
             movie.append((title, image, description))
@@ -35,9 +35,9 @@ class MovieService {
         var movie = Array<(String, String, String)>()
         for movieValues in actionData {
             let description = movieValues["Description"] as! String
-            let info = movieValues["MovieInfo"]
-            let title = info!["MovieTitle"] as! String
-            let image = info!["ImageName"] as! String
+            let info = movieValues["MovieInfo"] as! Array<String>
+            let title = info[0]
+            let image = info[1]
             movie.append((title, image, description))
         }
         return movie
@@ -47,21 +47,21 @@ class MovieService {
         var movie = Array<(String, String, String)>()
         for movieValues in comedyData {
             let description = movieValues["Description"] as! String
-            let info = movieValues["MovieInfo"]
-            let title = info!["MovieTitle"] as! String
-            let image = info!["ImageName"] as! String
+            let info = movieValues["MovieInfo"] as! Array<String>
+            let title = info[0]
+            let image = info[1]
             movie.append((title, image, description))
         }
         return movie
     }
     
-    func sportsMovieData() -> Array<(title: String, image: String, description: String)> {
+   func sportsMovieData() -> Array<(title: String, image: String, description: String)> {
         var movie = Array<(String, String, String)>()
         for movieValues in sportsData {
             let description = movieValues["Description"] as! String
-            let info = movieValues["MovieInfo"]
-            let title = info!["MovieTitle"] as! String
-            let image = info!["ImageName"] as! String
+            let info = movieValues["MovieInfo"] as! Array<String>
+            let title = info[0]
+            let image = info[1]
             movie.append((title, image, description))
         }
         return movie

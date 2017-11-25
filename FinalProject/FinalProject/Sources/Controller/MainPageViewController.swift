@@ -13,7 +13,7 @@ class MainPageViewController: UIViewController, UITableViewDataSource, UITableVi
     //Setup the functions for the TableView
     func tableView(_ tableView: UITableView, numberOfRowsInSection: Int) -> Int {
         //return the Amount of Data from the MovieService Class
-        return MovieService.shared.actionMovieData().count
+        return MovieService.shared.horrorMovieData().count
     }
     
     func numberOfSections(in tableView: UITableView) -> Int {
@@ -45,6 +45,13 @@ class MainPageViewController: UIViewController, UITableViewDataSource, UITableVi
             descriptionPageViewController.getTitle = movieCell.titleLabel!.text
             descriptionPageViewController.getDescription = movieCell.hiddenDescription!.text
             descriptionPageViewController.getImage = movieCell.movieImage!.image
+            
+            
+            let selectedIndexPath = movieListTable.indexPathForSelectedRow!
+            movieListTable.deselectRow(at: selectedIndexPath, animated: true)
+        }
+        else {
+            super.prepare(for: segue, sender: sender)
         }
     }
     
@@ -52,7 +59,7 @@ class MainPageViewController: UIViewController, UITableViewDataSource, UITableVi
     @IBOutlet private weak var movieListTable: UITableView!
     private var genreIndex: IndexPath! = nil
     
-    //Create a Function for each of the Buttons and change the contents of the cell whenever the button is clicked
+    //MARK: Not working
     @IBAction private func horrorButton() {
         //Change the contents that is within the tableView Whenever this button is clicked -- first acess the
         //contents of the cell

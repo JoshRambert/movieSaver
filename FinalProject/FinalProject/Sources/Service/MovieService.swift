@@ -9,6 +9,7 @@
 import Foundation
 import UIKit
 
+//Change the dictionaries in the plists to arrays of string that hold the titile the image and the description -- then add an index to each of the functions.
 class MovieService {
     //Create the Functions that will be used to get the Title and Image from the Movies
     func horrorMovieData() -> Array<(title: String, image: String, description: String)> {
@@ -17,10 +18,7 @@ class MovieService {
         var movie = Array<(String, String, String)>()
         //parse the data from the plist
         for movieValues in horrorData {
-            let description = movieValues["Description"] as! String
-            let info = movieValues["MovieInfo"] as! Array<String>
-            let title = info[0]
-            let image = info[1]
+            
             
             //add it to the movie array
             movie.append((title, image, description))
@@ -92,3 +90,4 @@ class MovieService {
     //MARK: Static properties
     static let shared = MovieService()
 }
+

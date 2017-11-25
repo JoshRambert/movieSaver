@@ -3,93 +3,103 @@
 <plist version="1.0">
 <array>
 	<dict>
-		<key>Description</key>
-		<string>No not Xmen....some over ambitious guy gets a little too ambitious and starts to break some rules</string>
+		<key>Title</key>
+		<string>Night Crawler</string>
 		<key>MovieInfo</key>
 		<array>
-			<string>Night Crawler</string>
+			<string>Night Crawler </string>
 			<string>nightCrawler</string>
+			<string>Some guy gets a little over ambitous and starts to break some rules </string>
 		</array>
 	</dict>
 	<dict>
-		<key>Description</key>
-		<string>Some Paranormal shit</string>
-		<key>MovieInfo</key>
+		<key>Title</key>
+		<string>Paranormal Activity</string>
+		<key>New item - 2</key>
 		<array>
 			<string>Paranormal Activity</string>
 			<string>Paranormal-Activity</string>
+			<string>Some Paranormal Shit</string>
 		</array>
 	</dict>
 	<dict>
-		<key>Description</key>
-		<string>Some kids get kidnapped by some weird ass skitzofrenek....or did they?</string>
+		<key>Title</key>
+		<string>Prisoners</string>
 		<key>MovieInfo</key>
 		<array>
 			<string>Prisoners</string>
 			<string>prisoners</string>
+			<string>Some kids get kidknapped </string>
 		</array>
 	</dict>
 	<dict>
-		<key>Description</key>
-		<string>There is a paranormal dimension where some paranormal shit goes down</string>
+		<key>Title</key>
+		<string>Insidious</string>
 		<key>MovieInfo</key>
 		<array>
 			<string>Insidious</string>
 			<string>Insidious</string>
+			<string>There is a paranormal dimension where some paranormal shit goes down</string>
 		</array>
 	</dict>
 	<dict>
-		<key>Description</key>
-		<string>This white bitch seduces a black man and take him into a racist neighborhood so that he could be abducted and used for a brain transplant</string>
+		<key>Title</key>
+		<string>Get Out</string>
 		<key>MovieInfo</key>
 		<array>
 			<string>Get Out</string>
 			<string>getOut</string>
+			<string>This white bitch seduces a black man and take him into a racist neighborhood so that he could be abducted and used for a brain transplant</string>
 		</array>
 	</dict>
 	<dict>
-		<key>Description</key>
-		<string>A haunted house that possess the mother of every family that decides to live there</string>
+		<key>Title</key>
+		<string>The Conjuring</string>
 		<key>MovieInfo</key>
 		<array>
 			<string>The Conjuring</string>
 			<string>theConjuring</string>
+			<string>A haunted house that possess the mother of every family that decides to live there</string>
 		</array>
 	</dict>
 	<dict>
-		<key>Description</key>
-		<string>Clown fucking up some children -- and then they all have naorgy</string>
+		<key>Title</key>
+		<string>IT</string>
 		<key>MovieInfo</key>
 		<array>
 			<string>IT</string>
 			<string>IT</string>
+			<string>Clown fucking up some children -- and then they all have an orgy...atleast in the books</string>
 		</array>
 	</dict>
 	<dict>
-		<key>Description</key>
-		<string>Dude with a mask starts killing every teeneager in the movie</string>
+		<key>Title</key>
+		<string>Friday The 13th</string>
 		<key>MovieInfo</key>
 		<array>
 			<string>Friday the 13th</string>
 			<string>fridayThe13th</string>
+			<string>Dude with a mask starts killing every teeneager in the movie</string>
 		</array>
 	</dict>
 	<dict>
-		<key>Description</key>
-		<string>Humans go out into space and get fucked up by some aliens</string>
+		<key>Title</key>
+		<string>Aliens</string>
 		<key>MovieInfo</key>
 		<array>
 			<string>Aliens</string>
 			<string>aliens</string>
+			<string>Humans go out into space and get fucked up by some aliens</string>
 		</array>
 	</dict>
 	<dict>
-		<key>Description</key>
-		<string>Scary ass movie about some possessed doll</string>
+		<key>TItle</key>
+		<string>Annabelle Creation</string>
 		<key>MovieInfo</key>
 		<array>
 			<string>Annabelle Creation</string>
 			<string>AnnabelleCreation</string>
+			<string>Scary ass movie about some possessed doll</string>
 		</array>
 	</dict>
 </array>

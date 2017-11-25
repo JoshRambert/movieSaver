@@ -3,93 +3,103 @@
 <plist version="1.0">
 <array>
 	<dict>
-		<key>Description</key>
-		<string>This is a pretty funny movie and everbody needs to watch it</string>
+		<key>Title</key>
+		<string>21 Jump Street</string>
 		<key>MovieInfo</key>
 		<array>
-			<string></string>
-			<string></string>
+			<string>21 Jump Street </string>
+			<string>21JumpStreet</string>
+			<string>This is a pretty funny movie and everbody needs to watch it</string>
 		</array>
 	</dict>
 	<dict>
-		<key>Description</key>
-		<string>A house is possessed by a ghost and has its way with just about everything</string>
+		<key>Title</key>
+		<string>A Haunted House</string>
 		<key>MovieInfo</key>
 		<array>
 			<string>A Haunted House</string>
 			<string>AhauntedHouse</string>
+			<string>A house is possessed by a ghost and has its way with just about everything</string>
 		</array>
 	</dict>
 	<dict>
-		<key>Description</key>
-		<string>News Anchor on some bull shit as usual</string>
+		<key>Title</key>
+		<string>Anchorman: The legend of Ron Burgundy</string>
 		<key>MovieInfo</key>
 		<array>
 			<string>Anchorman: The Legend of Ron Burgundy</string>
 			<string>Anchorman</string>
+			<string>News Anchor on some bull shit as usual</string>
 		</array>
 	</dict>
 	<dict>
-		<key>Description</key>
-		<string>Tities</string>
+		<key>Title</key>
+		<string>Baywatch</string>
 		<key>MovieInfo</key>
 		<array>
 			<string>Baywatch</string>
 			<string>bayWatch</string>
+			<string>Tities</string>
 		</array>
 	</dict>
 	<dict>
-		<key>Description</key>
-		<string>Ever dreamed of the perfect party...Take that and multiply it by High School</string>
+		<key>Title</key>
+		<string>Project X</string>
 		<key>MovieInfo</key>
 		<array>
 			<string>Project X</string>
 			<string>Project-X</string>
+			<string>Ever dreamed of the perfect party...Take that and multiply it by High School</string>
 		</array>
 	</dict>
 	<dict>
-		<key>Description</key>
-		<string>The godfather of parody movies...sit down smoke some weed and enjoy pure raunchy comedic gold</string>
+		<key>Title</key>
+		<string>Scary Movie</string>
 		<key>MovieInfo</key>
 		<array>
 			<string>Scary Movie</string>
 			<string>scary-movie</string>
+			<string>The godfather of parody movies...sit down smoke some weed and enjoy pure raunchy comedic gold</string>
 		</array>
 	</dict>
 	<dict>
-		<key>Description</key>
-		<string>Great family comedy..sorta be ready to cry tears of laughter</string>
+		<key>Title</key>
+		<string>Step Brothers</string>
 		<key>MovieInfo</key>
 		<array>
 			<string>Step Brothers</string>
 			<string>stepBrothers</string>
+			<string>Great family comedy..sorta be ready to cry tears of laughter</string>
 		</array>
 	</dict>
 	<dict>
-		<key>Description</key>
-		<string>A star studded cast of comedic geniuses that throw themselves into the vietnam war...Have fun</string>
+		<key>Title</key>
+		<string>Tropic Thunder</string>
 		<key>MovieInfo</key>
 		<array>
 			<string>Tropic Thunder</string>
 			<string>tropicThunder</string>
+			<string>A star studded cast of comedic geniuses that throw themselves into the vietnam war...Have fun</string>
 		</array>
 	</dict>
 	<dict>
-		<key>Description</key>
-		<string>If i had to describe my high school experience it would be this movie...</string>
+		<key>Title</key>
+		<string>Super Bad</string>
 		<key>MovieInfo</key>
 		<array>
 			<string>Super Bad</string>
 			<string>superBad</string>
+			<string>If i had to describe my high school experience it would be this movie...</string>
 		</array>
 	</dict>
 	<dict>
-		<key>Description</key>
-		<string>Comedic gold for all of the wrong reasons enjoy watching this movie</string>
+		<key>Title</key>
+		<string>The Hangover</string>
 		<key>MovieInfo</key>
 		<array>
 			<string>The Hangover</string>
 			<string>theHangover</string>
+			<string>Comedic gold for all of the wrong reasons enjoy watching this movie</string>
 		</array>
 	</dict>
 </array>

@@ -11,31 +11,34 @@ import UIKit
 
 //Change the dictionaries in the plists to arrays of string that hold the titile the image and the description -- then add an index to each of the functions.
 class MovieService {
+    
     //Create the Functions that will be used to get the Title and Image from the Movies
     func horrorMovieData() -> Array<(title: String, image: String, description: String)> {
-        
         //create an array for the Stuff
         var movie = Array<(String, String, String)>()
         //parse the data from the plist
         for movieValues in horrorData {
-            
+            let title = movieValues["Title"] as! String
+            let info = movieValues["MovieInfo"] as! Array<String>
+            let image = info[1]
+            let description = info[2]
             
             //add it to the movie array
             movie.append((title, image, description))
-            
         }
         //return the movie Array
         return movie
     }
     
+    
     //Repeat the process over and over again for each of the plists
     func actionMovieData() -> Array<(title: String, image: String, description: String)> {
         var movie = Array<(String, String, String)>()
         for movieValues in actionData {
-            let description = movieValues["Description"] as! String
+            let title = movieValues["Title"] as! String
             let info = movieValues["MovieInfo"] as! Array<String>
-            let title = info[0]
             let image = info[1]
+            let description = info[2]
             movie.append((title, image, description))
         }
         return movie
@@ -44,10 +47,10 @@ class MovieService {
     func comedyMovieData() -> Array<(title: String, image: String, description: String)> {
         var movie = Array<(String, String, String)>()
         for movieValues in comedyData {
-            let description = movieValues["Description"] as! String
+            let title = movieValues["Title"] as! String
             let info = movieValues["MovieInfo"] as! Array<String>
-            let title = info[0]
             let image = info[1]
+            let description = info[2]
             movie.append((title, image, description))
         }
         return movie
@@ -56,10 +59,10 @@ class MovieService {
    func sportsMovieData() -> Array<(title: String, image: String, description: String)> {
         var movie = Array<(String, String, String)>()
         for movieValues in sportsData {
-            let description = movieValues["Description"] as! String
+            let title = movieValues["Title"] as! String
             let info = movieValues["MovieInfo"] as! Array<String>
-            let title = info[0]
             let image = info[1]
+            let description = info[2]
             movie.append((title, image, description))
         }
         return movie

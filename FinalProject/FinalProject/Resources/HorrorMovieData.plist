@@ -15,7 +15,7 @@
 	<dict>
 		<key>Title</key>
 		<string>Paranormal Activity</string>
-		<key>New item - 2</key>
+		<key>MovieInfo</key>
 		<array>
 			<string>Paranormal Activity</string>
 			<string>Paranormal-Activity</string>
@@ -93,7 +93,7 @@
 		</array>
 	</dict>
 	<dict>
-		<key>TItle</key>
+		<key>Title</key>
 		<string>Annabelle Creation</string>
 		<key>MovieInfo</key>
 		<array>

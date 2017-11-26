@@ -10,12 +10,18 @@ import Foundation
 import UIKit
 
 class DescriptionPageViewController: UIViewController{
-    //get the data from the data cells and displat it within the ViewController
+    //get the data from the data cells and display it within the ViewController
     override func viewDidLoad() {
         super.viewDidLoad()
+        getMovieInfo()
+    }
+    
+    //Create a function that will get the movie title, image and description from the movieCell
+    public func getMovieInfo() {
         movieTitle.text! = getTitle
         movieDescription.text! = getDescription
-        movieImage.image = getImage
+        movieImage.image! = getImage
+        
     }
     
     //MARK: Properties

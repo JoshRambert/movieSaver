@@ -21,7 +21,7 @@ class MainPageViewController: UIViewController, UITableViewDataSource, UITableVi
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "MovieCell", for: indexPath) as! MovieCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "MovieCell") as! MovieCell
         let horrorValues = MovieService.shared.horrorMovieData()[indexPath.row]
         
         let titleName = horrorValues.title
@@ -38,11 +38,12 @@ class MainPageViewController: UIViewController, UITableViewDataSource, UITableVi
         let storyBaord = UIStoryboard(name: "Main", bundle: nil)
         let descriptionPageViewController = storyBaord.instantiateViewController(withIdentifier: "DescriptionPage") as! DescriptionPageViewController
         
-        //get a refernce to the movieListTable and the cells within them
+        //get a reference to the movieListTable and the cells within them
         let movieCell = movieListTable.dequeueReusableCell(withIdentifier: "MovieCell", for: indexPath) as! MovieCell
-        descriptionPageViewController.getTitle = movieCell.titleLabel!.text
-        descriptionPageViewController.getDescription = movieCell.hiddenDescription!.text
-        descriptionPageViewController.getImage = movieCell.movieImage!.image
+        
+        descriptionPageViewController.getTitle = movieCell.titleLabel.text!
+        descriptionPageViewController.getDescription = movieCell.hiddenDescription.text!
+        descriptionPageViewController.getImage = movieCell.movieImage.image!
         
         self.navigationController?.pushViewController(descriptionPageViewController, animated: true)
     }

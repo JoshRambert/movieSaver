@@ -13,23 +13,21 @@ class DescriptionPageViewController: UIViewController{
     //get the data from the data cells and display it within the ViewController
     override func viewDidLoad() {
         super.viewDidLoad()
-        getMovieInfo()
     }
     
-    //Create a function that will get the movie title, image and description from the movieCell
     public func getMovieInfo() {
-        movieTitle.text! = getTitle
-        movieDescription.text! = getDescription
-        movieImage.image! = getImage
+        movieTitle.text = getTitle
+        movieDescription.text = getDescription
+        movieImage.image = getImage
         
     }
     
     //MARK: Properties
-    var getTitle: String!
-    var getImage: UIImage!
-    var getDescription: String!
+    var getTitle = String()
+    var getImage = UIImage()
+    var getDescription = String()
     
-    @IBOutlet public weak var movieImage: UIImageView!
-    @IBOutlet public weak var movieTitle: UILabel!
-    @IBOutlet public weak var movieDescription: UILabel!
+    @IBOutlet weak var movieImage: UIImageView!
+    @IBOutlet weak var movieTitle: UILabel!
+    @IBOutlet weak var movieDescription: UILabel!
 }

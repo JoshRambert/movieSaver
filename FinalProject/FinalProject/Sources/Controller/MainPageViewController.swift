@@ -45,17 +45,16 @@ class MainPageViewController: UIViewController, UITableViewDataSource, UITableVi
         descriptionPageViewController.getDescription = movieCell.hiddenDescription.text!
         descriptionPageViewController.getImage = movieCell.movieImage.image!
         
-        self.navigationController?.pushViewController(descriptionPageViewController, animated: true)
     }
     
-    /* override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+     /* override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "DescriptionSegue" {
             let descriptionPageViewController = segue.destination as! DescriptionPageViewController
             let movieCell = movieListTable.dequeueReusableCell(withIdentifier: "MovieCell") as! MovieCell
             
-            descriptionPageViewController.getTitle = movieCell.titleLabel!.text
-            descriptionPageViewController.getDescription = movieCell.hiddenDescription!.text
-            descriptionPageViewController.getImage = movieCell.movieImage!.image
+            descriptionPageViewController.getTitle = movieCell.titleLabel!.text!
+            descriptionPageViewController.getDescription = movieCell.hiddenDescription!.text!
+            descriptionPageViewController.getImage = movieCell.movieImage!.image!
             
             let selectedIndex = movieListTable.indexPathForSelectedRow!
             movieListTable.deselectRow(at: selectedIndex, animated: true)
@@ -67,7 +66,5 @@ class MainPageViewController: UIViewController, UITableViewDataSource, UITableVi
     
     //MARK: Outlets and Properties
     @IBOutlet private weak var movieListTable: UITableView!
-    
-    //MARK: Not working
-    
+        
 }

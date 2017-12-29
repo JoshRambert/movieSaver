@@ -14,7 +14,7 @@ class MovieCell: UITableViewCell {
     
     //Create the function that will get the image from the plis data file then call this function in the
     func getImage(forImageName imageName: String){
-        movieImage.image = UIImage(named: imageName)
+        movieImage?.image = UIImage(named: imageName)
     }
     func getTitle(forTitleName titleName: String) {
         titleLabel?.text = titleName

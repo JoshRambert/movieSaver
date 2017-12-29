@@ -26,6 +26,7 @@
 		833DE6731FBB986200EE05CD /* ActionMovieData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 833DE6721FBB986200EE05CD /* ActionMovieData.plist */; };
 		833DE6751FBB9D5D00EE05CD /* ComedyMovieData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 833DE6741FBB9D5D00EE05CD /* ComedyMovieData.plist */; };
 		833DE6771FBB9F1D00EE05CD /* SportsMovieData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 833DE6761FBB9F1D00EE05CD /* SportsMovieData.plist */; };
+		8345272B1FF622E0000E738D /* ActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8345272A1FF622E0000E738D /* ActionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 		833DE6721FBB986200EE05CD /* ActionMovieData.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ActionMovieData.plist; sourceTree = "<group>"; };
 		833DE6741FBB9D5D00EE05CD /* ComedyMovieData.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ComedyMovieData.plist; sourceTree = "<group>"; };
 		833DE6761FBB9F1D00EE05CD /* SportsMovieData.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = SportsMovieData.plist; sourceTree = "<group>"; };
+		8345272A1FF622E0000E738D /* ActionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,6 +191,7 @@
 				833DE66A1FB85EE900EE05CD /* LibraryPage.swift */,
 				833DE66C1FB85F8500EE05CD /* WhatsNewPage.swift */,
 				833DE66E1FB90EDB00EE05CD /* DescriptionPage.swift */,
+				8345272A1FF622E0000E738D /* ActionViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -346,6 +349,7 @@
 				833DE66F1FB90EDB00EE05CD /* DescriptionPage.swift in Sources */,
 				833DE65F1FB79A5A00EE05CD /* MainPageViewController.swift in Sources */,
 				833DE66B1FB85EE900EE05CD /* LibraryPage.swift in Sources */,
+				8345272B1FF622E0000E738D /* ActionViewController.swift in Sources */,
 				8313A7DF1FC3E08000281B48 /* MovieCoreData.xcdatamodeld in Sources */,
 				833DE6311FB7974600EE05CD /* AppDelegate.swift in Sources */,
 				833DE66D1FB85F8500EE05CD /* WhatsNewPage.swift in Sources */,

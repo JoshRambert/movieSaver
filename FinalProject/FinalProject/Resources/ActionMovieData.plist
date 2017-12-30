@@ -3,35 +3,37 @@
 <plist version="1.0">
 <array>
 	<dict>
-		<key>Description</key>
-		<string>The smoothest agent in the world saving it from an oversensitve maniac</string>
+		<key>Title</key>
+		<string>007 Skyfall</string>
 		<key>MovieInfo</key>
 		<array>
 			<string>007 Skyfall</string>
 			<string>007Skyfall</string>
+			<string>The smoothest agent in the world saving it from an oversensitve maniac</string>
 		</array>
 	</dict>
 	<dict>
-		<key>Description</key>
-		<string>Bad ass roman fucking up an entire arena of muthafuckas HE CANT BE STOPPED</string>
+		<key>Title</key>
+		<string>Gladiator</string>
 		<key>MovieInfo</key>
 		<array>
-			<string>Gadiator</string>
 			<string>Gladiator</string>
+			<string>Gladiator</string>
+			<string>Bad ass roman fucking up an entire arena of muthafuckas HE CANT BE STOPPED</string>
 		</array>
 	</dict>
 	<dict>
-		<key>Description</key>
-		<string>Ahhhhhh Shiieeettttt</string>
+		<key>Title</key>
+		<string>Justice League</string>
 		<key>MovieInfo</key>
 		<array>
 			<string>Justice League</string>
 			<string>justiceLeague</string>
-			<string></string>
+			<string>Ahhhhhh Shiieeettttt</string>
 		</array>
 	</dict>
 	<dict>
-		<key>TItle</key>
+		<key>Title</key>
 		<string>Batman: The Dark Knight</string>
 		<key>MovieInfo</key>
 		<array>
@@ -41,7 +43,7 @@
 		</array>
 	</dict>
 	<dict>
-		<key>TItle</key>
+		<key>Title</key>
 		<string>Marvels the Avengers</string>
 		<key>MovieInfo</key>
 		<array>

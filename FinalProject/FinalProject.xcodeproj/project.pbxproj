@@ -27,6 +27,7 @@
 		833DE6751FBB9D5D00EE05CD /* ComedyMovieData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 833DE6741FBB9D5D00EE05CD /* ComedyMovieData.plist */; };
 		833DE6771FBB9F1D00EE05CD /* SportsMovieData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 833DE6761FBB9F1D00EE05CD /* SportsMovieData.plist */; };
 		8345272B1FF622E0000E738D /* ActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8345272A1FF622E0000E738D /* ActionViewController.swift */; };
+		8365B1D71FF7974D00C03C11 /* ActionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8365B1D61FF7974D00C03C11 /* ActionCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,7 @@
 		833DE6741FBB9D5D00EE05CD /* ComedyMovieData.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ComedyMovieData.plist; sourceTree = "<group>"; };
 		833DE6761FBB9F1D00EE05CD /* SportsMovieData.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = SportsMovieData.plist; sourceTree = "<group>"; };
 		8345272A1FF622E0000E738D /* ActionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionViewController.swift; sourceTree = "<group>"; };
+		8365B1D61FF7974D00C03C11 /* ActionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				83367E471FBE81AF00C9FA20 /* MovieCell.swift */,
+				8365B1D61FF7974D00C03C11 /* ActionCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -345,6 +348,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				83367E481FBE81AF00C9FA20 /* MovieCell.swift in Sources */,
+				8365B1D71FF7974D00C03C11 /* ActionCell.swift in Sources */,
 				833DE6671FB8320700EE05CD /* MovieService.swift in Sources */,
 				833DE66F1FB90EDB00EE05CD /* DescriptionPage.swift in Sources */,
 				833DE65F1FB79A5A00EE05CD /* MainPageViewController.swift in Sources */,

@@ -23,7 +23,7 @@ class MovieCell: UITableViewCell {
         hiddenDescription?.text = description
     }
     
-    //MARK: Create a funciton that will take the information in the cell and add it to the CoreDataModel it will be named save
+    //MARK: Create a function that will take the information in the cell and add it to the CoreDataModel it will be named save
     func saveInfo(atIndexPath indexPath: IndexPath){
         //create the persistant store container
         let persistentContainer = NSPersistentContainer(name: "MovieCoreData")

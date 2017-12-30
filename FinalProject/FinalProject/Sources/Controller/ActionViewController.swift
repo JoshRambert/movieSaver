@@ -8,7 +8,6 @@
 
 import Foundation
 import UIKit
-import CoreData
 
 class ActionViewController: UIViewController, UITableViewDataSource, UITableViewDelegate{
     //Setup everything the same as the MainPage view controller except it will display the action films instead
@@ -21,7 +20,7 @@ class ActionViewController: UIViewController, UITableViewDataSource, UITableView
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "ActionCell") as! MovieCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "ActionCell") as! ActionCell
         let actionValues = MovieService.shared.actionMovieData()[indexPath.row]
         
         let titleName = actionValues.title

@@ -386,11 +386,11 @@
                                 <rect key="frame" x="0.0" y="60" width="375" height="558"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" shouldIndentWhileEditing="NO" reuseIdentifier="MovieCell" rowHeight="300" id="gXA-8E-dCt" customClass="MovieCell" customModule="FinalProject" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="375" height="300"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" shouldIndentWhileEditing="NO" reuseIdentifier="MovieCell" rowHeight="280" id="gXA-8E-dCt" customClass="MovieCell" customModule="FinalProject" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="280"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="gXA-8E-dCt" id="QJq-Yh-pWL">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="299.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="279.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="4Q0-Vf-3A9">
@@ -424,8 +424,8 @@
                                                 <constraint firstItem="8dh-8t-AGT" firstAttribute="leading" secondItem="QJq-Yh-pWL" secondAttribute="leadingMargin" id="GyB-AV-MNQ"/>
                                                 <constraint firstItem="4Q0-Vf-3A9" firstAttribute="top" secondItem="QJq-Yh-pWL" secondAttribute="top" id="QmG-bf-VwD"/>
                                                 <constraint firstAttribute="trailing" secondItem="4Q0-Vf-3A9" secondAttribute="trailing" id="SJD-4f-SBa"/>
+                                                <constraint firstAttribute="bottom" secondItem="627-a5-mQZ" secondAttribute="bottom" constant="15" id="WtW-TH-p15"/>
                                                 <constraint firstItem="4Q0-Vf-3A9" firstAttribute="centerX" secondItem="QJq-Yh-pWL" secondAttribute="centerX" id="aur-Dc-Lik"/>
-                                                <constraint firstAttribute="bottom" secondItem="8dh-8t-AGT" secondAttribute="bottom" constant="50" id="bOV-sj-h68"/>
                                                 <constraint firstItem="627-a5-mQZ" firstAttribute="top" secondItem="4Q0-Vf-3A9" secondAttribute="bottom" constant="30" id="gBq-0w-Qkl"/>
                                                 <constraint firstAttribute="trailing" secondItem="627-a5-mQZ" secondAttribute="trailing" constant="18" id="nl1-7e-yYD"/>
                                                 <constraint firstItem="627-a5-mQZ" firstAttribute="leading" secondItem="QJq-Yh-pWL" secondAttribute="leading" constant="15" id="yYW-oW-8QM"/>

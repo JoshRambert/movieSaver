@@ -34,36 +34,6 @@ class MainPageViewController: UIViewController, UITableViewDataSource, UITableVi
         return cell
     }
     
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let storyBaord = UIStoryboard(name: "Main", bundle: nil)
-        let descriptionPageViewController = storyBaord.instantiateViewController(withIdentifier: "DescriptionPage") as! DescriptionPageViewController
-        
-        //get a reference to the movieListTable and the cells within them
-        let movieCell = movieListTable.dequeueReusableCell(withIdentifier: "MovieCell", for: indexPath) as! MovieCell
-        
-        descriptionPageViewController.getTitle = movieCell.titleLabel.text!
-        descriptionPageViewController.getDescription = movieCell.hiddenDescription.text!
-        descriptionPageViewController.getImage = movieCell.movieImage.image!
-        
-    }
-    
-     /* override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "DescriptionSegue" {
-            let descriptionPageViewController = segue.destination as! DescriptionPageViewController
-            let movieCell = movieListTable.dequeueReusableCell(withIdentifier: "MovieCell") as! MovieCell
-            
-            descriptionPageViewController.getTitle = movieCell.titleLabel!.text!
-            descriptionPageViewController.getDescription = movieCell.hiddenDescription!.text!
-            descriptionPageViewController.getImage = movieCell.movieImage!.image!
-            
-            let selectedIndex = movieListTable.indexPathForSelectedRow!
-            movieListTable.deselectRow(at: selectedIndex, animated: true)
-        }
-        else {
-            super.prepare(for: segue, sender: sender)
-        }
-    } */
-    
     //MARK: Outlets and Properties
     @IBOutlet private weak var movieListTable: UITableView!
         

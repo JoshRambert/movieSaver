@@ -33,18 +33,6 @@ class ComedyViewController: UIViewController, UITableViewDataSource, UITableView
         return cell
     }
     
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let storyBoard = UIStoryboard(name: "Main", bundle: nil)
-        let descriptionPageViewController = storyBoard.instantiateViewController(withIdentifier: "DescriptionPage") as! DescriptionPageViewController
-        
-        //Get a reference to the movieListTable and the cells within them
-        let movieCell = movieListTable.dequeueReusableCell(withIdentifier: "ComedyCell", for: indexPath) as! ComedyCell
-        
-        descriptionPageViewController.getTitle = movieCell.titleLabel.text!
-        descriptionPageViewController.getDescription = movieCell.hiddenDescription.text!
-        descriptionPageViewController.getImage = movieCell.movieImage.image!
-    }
-    
     //MARK Properties
     @IBOutlet private weak var movieListTable: UITableView!
 }

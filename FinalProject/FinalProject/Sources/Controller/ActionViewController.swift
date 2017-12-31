@@ -34,18 +34,5 @@ class ActionViewController: UIViewController, UITableViewDataSource, UITableView
         return cell
     }
     
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let storyBoard = UIStoryboard(name: "Main", bundle: nil)
-        let descriptionPageViewController = storyBoard.instantiateViewController(withIdentifier: "DescriptionPage") as! DescriptionPageViewController
-        
-        //get a refernce to the movieListTale and the cells within them
-        let movieCell = movieListTable.dequeueReusableCell(withIdentifier: "ActionCell", for: indexPath) as! MovieCell
-        
-        //assign the values of the movie to the empty labels of the description page
-        descriptionPageViewController.getTitle = movieCell.titleLabel.text!
-        descriptionPageViewController.getDescription = movieCell.hiddenDescription.text!
-        descriptionPageViewController.getImage = movieCell.movieImage.image!
-    }
-    
     @IBOutlet private weak var movieListTable: UITableView!
 }

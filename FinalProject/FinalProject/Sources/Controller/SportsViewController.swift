@@ -33,18 +33,6 @@ class SportsViewController: UIViewController, UITableViewDelegate, UITableViewDa
         return cell
     }
     
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let storyBoard = UIStoryboard(name: "Main", bundle: nil)
-        let descriptionPageViewController = storyBoard.instantiateViewController(withIdentifier: "DescriptionPage") as! DescriptionPageViewController
-        
-        //get a reference to the movieListTable from the MainStoryBoard
-        let movieCell = movieListTable.dequeueReusableCell(withIdentifier: "SportsCell", for: indexPath) as! SportsCell
-        
-        descriptionPageViewController.getTitle = movieCell.titleLabel.text!
-        descriptionPageViewController.getDescription = movieCell.hiddenDescription.text!
-        descriptionPageViewController.getImage = movieCell.movieImage.image!
-    }
-    
     //MARK Propeerties
     @IBOutlet private weak var movieListTable: UITableView!
 }

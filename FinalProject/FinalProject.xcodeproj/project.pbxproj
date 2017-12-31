@@ -21,7 +21,6 @@
 		833DE6691FB832ED00EE05CD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 833DE6681FB832ED00EE05CD /* Default-568h@2x.png */; };
 		833DE66B1FB85EE900EE05CD /* LibraryPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833DE66A1FB85EE900EE05CD /* LibraryPage.swift */; };
 		833DE66D1FB85F8500EE05CD /* WhatsNewPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833DE66C1FB85F8500EE05CD /* WhatsNewPage.swift */; };
-		833DE66F1FB90EDB00EE05CD /* DescriptionPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833DE66E1FB90EDB00EE05CD /* DescriptionPage.swift */; };
 		833DE6711FBB922600EE05CD /* HorrorMovieData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 833DE6701FBB922600EE05CD /* HorrorMovieData.plist */; };
 		833DE6731FBB986200EE05CD /* ActionMovieData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 833DE6721FBB986200EE05CD /* ActionMovieData.plist */; };
 		833DE6751FBB9D5D00EE05CD /* ComedyMovieData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 833DE6741FBB9D5D00EE05CD /* ComedyMovieData.plist */; };
@@ -72,7 +71,6 @@
 		833DE6681FB832ED00EE05CD /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		833DE66A1FB85EE900EE05CD /* LibraryPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryPage.swift; sourceTree = "<group>"; };
 		833DE66C1FB85F8500EE05CD /* WhatsNewPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsNewPage.swift; sourceTree = "<group>"; };
-		833DE66E1FB90EDB00EE05CD /* DescriptionPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionPage.swift; sourceTree = "<group>"; };
 		833DE6701FBB922600EE05CD /* HorrorMovieData.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = HorrorMovieData.plist; sourceTree = "<group>"; };
 		833DE6721FBB986200EE05CD /* ActionMovieData.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ActionMovieData.plist; sourceTree = "<group>"; };
 		833DE6741FBB9D5D00EE05CD /* ComedyMovieData.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ComedyMovieData.plist; sourceTree = "<group>"; };
@@ -203,7 +201,6 @@
 				833DE65E1FB79A5A00EE05CD /* MainPageViewController.swift */,
 				833DE66A1FB85EE900EE05CD /* LibraryPage.swift */,
 				833DE66C1FB85F8500EE05CD /* WhatsNewPage.swift */,
-				833DE66E1FB90EDB00EE05CD /* DescriptionPage.swift */,
 				8345272A1FF622E0000E738D /* ActionViewController.swift */,
 				839A76BE1FF814760036A581 /* ComedyViewController.swift */,
 				839A76C01FF85B5D0036A581 /* SportsViewController.swift */,
@@ -363,7 +360,6 @@
 				8365B1D71FF7974D00C03C11 /* ActionCell.swift in Sources */,
 				839A76BD1FF8142C0036A581 /* ComedyCell.swift in Sources */,
 				833DE6671FB8320700EE05CD /* MovieService.swift in Sources */,
-				833DE66F1FB90EDB00EE05CD /* DescriptionPage.swift in Sources */,
 				839A76BF1FF814760036A581 /* ComedyViewController.swift in Sources */,
 				833DE65F1FB79A5A00EE05CD /* MainPageViewController.swift in Sources */,
 				833DE66B1FB85EE900EE05CD /* LibraryPage.swift in Sources */,

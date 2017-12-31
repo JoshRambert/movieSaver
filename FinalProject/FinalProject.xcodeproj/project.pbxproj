@@ -28,6 +28,10 @@
 		833DE6771FBB9F1D00EE05CD /* SportsMovieData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 833DE6761FBB9F1D00EE05CD /* SportsMovieData.plist */; };
 		8345272B1FF622E0000E738D /* ActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8345272A1FF622E0000E738D /* ActionViewController.swift */; };
 		8365B1D71FF7974D00C03C11 /* ActionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8365B1D61FF7974D00C03C11 /* ActionCell.swift */; };
+		839A76BD1FF8142C0036A581 /* ComedyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839A76BC1FF8142C0036A581 /* ComedyCell.swift */; };
+		839A76BF1FF814760036A581 /* ComedyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839A76BE1FF814760036A581 /* ComedyViewController.swift */; };
+		839A76C11FF85B5D0036A581 /* SportsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839A76C01FF85B5D0036A581 /* SportsViewController.swift */; };
+		839A76C31FF85BA40036A581 /* SportsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839A76C21FF85BA40036A581 /* SportsCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +79,10 @@
 		833DE6761FBB9F1D00EE05CD /* SportsMovieData.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = SportsMovieData.plist; sourceTree = "<group>"; };
 		8345272A1FF622E0000E738D /* ActionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionViewController.swift; sourceTree = "<group>"; };
 		8365B1D61FF7974D00C03C11 /* ActionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionCell.swift; sourceTree = "<group>"; };
+		839A76BC1FF8142C0036A581 /* ComedyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComedyCell.swift; sourceTree = "<group>"; };
+		839A76BE1FF814760036A581 /* ComedyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComedyViewController.swift; sourceTree = "<group>"; };
+		839A76C01FF85B5D0036A581 /* SportsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsViewController.swift; sourceTree = "<group>"; };
+		839A76C21FF85BA40036A581 /* SportsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +115,8 @@
 			children = (
 				83367E471FBE81AF00C9FA20 /* MovieCell.swift */,
 				8365B1D61FF7974D00C03C11 /* ActionCell.swift */,
+				839A76BC1FF8142C0036A581 /* ComedyCell.swift */,
+				839A76C21FF85BA40036A581 /* SportsCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -195,6 +205,8 @@
 				833DE66C1FB85F8500EE05CD /* WhatsNewPage.swift */,
 				833DE66E1FB90EDB00EE05CD /* DescriptionPage.swift */,
 				8345272A1FF622E0000E738D /* ActionViewController.swift */,
+				839A76BE1FF814760036A581 /* ComedyViewController.swift */,
+				839A76C01FF85B5D0036A581 /* SportsViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -349,14 +361,18 @@
 			files = (
 				83367E481FBE81AF00C9FA20 /* MovieCell.swift in Sources */,
 				8365B1D71FF7974D00C03C11 /* ActionCell.swift in Sources */,
+				839A76BD1FF8142C0036A581 /* ComedyCell.swift in Sources */,
 				833DE6671FB8320700EE05CD /* MovieService.swift in Sources */,
 				833DE66F1FB90EDB00EE05CD /* DescriptionPage.swift in Sources */,
+				839A76BF1FF814760036A581 /* ComedyViewController.swift in Sources */,
 				833DE65F1FB79A5A00EE05CD /* MainPageViewController.swift in Sources */,
 				833DE66B1FB85EE900EE05CD /* LibraryPage.swift in Sources */,
+				839A76C31FF85BA40036A581 /* SportsCell.swift in Sources */,
 				8345272B1FF622E0000E738D /* ActionViewController.swift in Sources */,
 				8313A7DF1FC3E08000281B48 /* MovieCoreData.xcdatamodeld in Sources */,
 				833DE6311FB7974600EE05CD /* AppDelegate.swift in Sources */,
 				833DE66D1FB85F8500EE05CD /* WhatsNewPage.swift in Sources */,
+				839A76C11FF85B5D0036A581 /* SportsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

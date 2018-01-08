@@ -37,7 +37,19 @@ class SportsViewController: UIViewController, UITableViewDelegate, UITableViewDa
     @IBOutlet private weak var movieListTable: UITableView!
     
     @IBAction func saveGesture(_ sender: Any){
+        let alert = UIAlertController(title: "Would you like to add this movie to your top 10?", message: nil, preferredStyle: .actionSheet)
         
+        //create the actions for the saveGesture
+        let saveAction = UIAlertAction(title: "Yes", style: .default){
+            (alert: UIAlertAction!) -> Void in self.saveInfo()
+        }
+        
+        let cancelAction = UIAlertAction(title: "No", style: .cancel, handler: nil)
+        
+        alert.addAction(saveAction)
+        alert.addAction(cancelAction)
+        
+        present(alert, animated: true, completion: nil)
     }
     
     func saveInfo(){

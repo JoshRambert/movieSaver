@@ -26,4 +26,6 @@ class ActionCell: UITableViewCell {
     @IBOutlet public weak var titleLabel: UILabel!
     @IBOutlet public weak var hiddenDescription: UILabel!
     @IBOutlet public weak var movieImage: UIImageView!
+    
+    static let shared = ActionCell();
 }

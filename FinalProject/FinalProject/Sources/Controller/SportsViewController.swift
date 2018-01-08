@@ -35,5 +35,46 @@ class SportsViewController: UIViewController, UITableViewDelegate, UITableViewDa
     
     //MARK Propeerties
     @IBOutlet private weak var movieListTable: UITableView!
+    
+    @IBAction func saveGesture(_ sender: Any){
+        
+    }
+    
+    func saveInfo(){
+        //Create the persistent store container
+        let persistentContainer = NSPersistentContainer(name: "MovieCoreData")
+        persistentContainer.loadPersistentStores(completionHandler: {(storeDescription, error) in
+            //Executed after the stores are loaded
+            guard error == nil else{
+                fatalError("Couldnt load persistent store container \(error!.localizedDescription)")
+            }
+            //merge the view
+            persistentContainer.viewContext.automaticallyMergesChangesFromParent = true
+            //get the background context
+            let context = persistentContainer.newBackgroundContext()
+            context.perform{
+                //Create the fetch request for the count
+                let fetchRequest: NSFetchRequest<MovieInfo> = MovieInfo.fetchRequest()
+                
+                //the count request
+                let count: Int
+                do {
+                    count = try context.count(for: fetchRequest)
+                }
+                catch let error{
+                    fatalError("Error getting amount of MovieInfo \(error.localizedDescription)")
+                }
+                //If the count is less than ten add the data to the Core Data stack
+                guard count < 10 else{
+                    return
+                }
+                //add the contents of the movieCell into the core Data stack
+                let movieInfo = MovieInfo(context: context)
+                
+                movieInfo.title = SportsCell.shared.titleLabel?.text
+                movieInfo.descrip = SportsCell.shared.hiddenDescription?.text
+            }
+        })
+    }
 }
 

@@ -49,6 +49,7 @@
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="iqR-U5-Io8">
                                 <rect key="frame" x="0.0" y="60" width="375" height="558"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <gestureRecognizers/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" shouldIndentWhileEditing="NO" reuseIdentifier="ComedyCell" rowHeight="280" id="qv5-AD-gXG" customClass="ComedyCell" customModule="FinalProject" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="280"/>
@@ -101,6 +102,7 @@
                                 <connections>
                                     <outlet property="dataSource" destination="3Qk-s0-cpC" id="yAC-rj-mFB"/>
                                     <outlet property="delegate" destination="3Qk-s0-cpC" id="BtU-4x-mNc"/>
+                                    <outletCollection property="gestureRecognizers" destination="55S-Bp-SUb" appends="YES" id="zZB-pt-mUb"/>
                                 </connections>
                             </tableView>
                         </subviews>
@@ -122,6 +124,11 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="os3-F8-XMW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.5" id="55S-Bp-SUb">
+                    <connections>
+                        <action selector="saveGesture:" destination="3Qk-s0-cpC" id="DSj-37-6op"/>
+                    </connections>
+                </pongPressGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="-1282.4000000000001" y="-1639.4302848575715"/>
         </scene>
@@ -147,6 +154,7 @@
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="hRi-25-pR3">
                                 <rect key="frame" x="0.0" y="60" width="375" height="558"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <gestureRecognizers/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" shouldIndentWhileEditing="NO" reuseIdentifier="SportsCell" rowHeight="280" id="xf2-9T-gCu" customClass="SportsCell" customModule="FinalProject" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="280"/>
@@ -190,6 +198,7 @@
                                                 <constraint firstAttribute="bottom" secondItem="TAR-vm-EnL" secondAttribute="bottom" constant="31.5" id="tDu-Hc-pN6"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <gestureRecognizers/>
                                         <connections>
                                             <outlet property="hiddenDescription" destination="u7x-Oe-gSc" id="n4Y-US-erV"/>
                                             <outlet property="movieImage" destination="PKY-A9-Zw0" id="tk7-9z-x3c"/>
@@ -200,6 +209,7 @@
                                 <connections>
                                     <outlet property="dataSource" destination="iy4-6V-56c" id="uQ4-Wd-Mvb"/>
                                     <outlet property="delegate" destination="iy4-6V-56c" id="EU8-Oa-f2d"/>
+                                    <outletCollection property="gestureRecognizers" destination="HW3-tE-0TV" appends="YES" id="PnN-0C-7Zo"/>
                                 </connections>
                             </tableView>
                         </subviews>
@@ -221,6 +231,11 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eqh-Im-jLc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.5" id="HW3-tE-0TV">
+                    <connections>
+                        <action selector="saveGesture:" destination="iy4-6V-56c" id="Dhq-sd-FyX"/>
+                    </connections>
+                </pongPressGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="-2394.4000000000001" y="-763.26836581709154"/>
         </scene>
@@ -266,6 +281,7 @@
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="V0U-Yf-i0n">
                                 <rect key="frame" x="0.0" y="60" width="375" height="558"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <gestureRecognizers/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" shouldIndentWhileEditing="NO" reuseIdentifier="ActionCell" rowHeight="280" id="RtJ-Ck-qMM" customClass="ActionCell" customModule="FinalProject" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="280"/>
@@ -319,6 +335,7 @@
                                 <connections>
                                     <outlet property="dataSource" destination="55q-Pn-9eL" id="jLn-kl-Dwy"/>
                                     <outlet property="delegate" destination="55q-Pn-9eL" id="4IJ-tF-gFU"/>
+                                    <outletCollection property="gestureRecognizers" destination="Ahb-Bt-iht" appends="YES" id="iNf-co-gkJ"/>
                                 </connections>
                             </tableView>
                         </subviews>
@@ -341,6 +358,11 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kjc-8O-giY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.5" id="Ahb-Bt-iht">
+                    <connections>
+                        <action selector="saveGesture:" destination="55q-Pn-9eL" id="jPJ-7V-Yzh"/>
+                    </connections>
+                </pongPressGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="-260" y="-763.26836581709154"/>
         </scene>
@@ -370,6 +392,7 @@
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="3gv-7s-JJ4">
                                 <rect key="frame" x="0.0" y="60" width="375" height="558"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <gestureRecognizers/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" shouldIndentWhileEditing="NO" reuseIdentifier="MovieCell" rowHeight="280" id="gXA-8E-dCt" customClass="MovieCell" customModule="FinalProject" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="280"/>
@@ -416,6 +439,7 @@
                                                 <constraint firstItem="627-a5-mQZ" firstAttribute="leading" secondItem="QJq-Yh-pWL" secondAttribute="leading" constant="15" id="yYW-oW-8QM"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <gestureRecognizers/>
                                         <connections>
                                             <outlet property="hiddenDescription" destination="627-a5-mQZ" id="zRi-Ls-wmZ"/>
                                             <outlet property="movieImage" destination="4Q0-Vf-3A9" id="DlF-bO-dd9"/>
@@ -427,6 +451,7 @@
                                 <connections>
                                     <outlet property="dataSource" destination="BYZ-38-t0r" id="BlK-A9-CMh"/>
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="g6m-gf-0OM"/>
+                                    <outletCollection property="gestureRecognizers" destination="O6t-sX-2Uq" appends="YES" id="gbK-bN-dIP"/>
                                 </connections>
                             </tableView>
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HZb-Tw-spj">
@@ -474,6 +499,11 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.5" id="O6t-sX-2Uq">
+                    <connections>
+                        <action selector="saveGesture:" destination="BYZ-38-t0r" id="PlR-fA-zBb"/>
+                    </connections>
+                </pongPressGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="-1282.4000000000001" y="240.62968515742131"/>
         </scene>

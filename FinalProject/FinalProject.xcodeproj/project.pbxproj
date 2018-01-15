@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		830BFBB6200C4E830058DFE2 /* LibraryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830BFBB5200C4E830058DFE2 /* LibraryCell.swift */; };
+		830BFBB8200C56A70058DFE2 /* CoreDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830BFBB7200C56A70058DFE2 /* CoreDataService.swift */; };
 		8313A7DF1FC3E08000281B48 /* MovieCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8313A7DD1FC3E08000281B48 /* MovieCoreData.xcdatamodeld */; };
 		83367E481FBE81AF00C9FA20 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83367E471FBE81AF00C9FA20 /* MovieCell.swift */; };
 		833DE6311FB7974600EE05CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833DE6301FB7974600EE05CD /* AppDelegate.swift */; };
@@ -51,6 +53,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		830BFBB5200C4E830058DFE2 /* LibraryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryCell.swift; sourceTree = "<group>"; };
+		830BFBB7200C56A70058DFE2 /* CoreDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataService.swift; sourceTree = "<group>"; };
 		8313A7DE1FC3E08000281B48 /* MovieCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MovieCoreData.xcdatamodel; sourceTree = "<group>"; };
 		83367E471FBE81AF00C9FA20 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 		833DE62D1FB7974600EE05CD /* FinalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -115,6 +119,7 @@
 				8365B1D61FF7974D00C03C11 /* ActionCell.swift */,
 				839A76BC1FF8142C0036A581 /* ComedyCell.swift */,
 				839A76C21FF85BA40036A581 /* SportsCell.swift */,
+				830BFBB5200C4E830058DFE2 /* LibraryCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -212,6 +217,7 @@
 			isa = PBXGroup;
 			children = (
 				833DE6661FB8320700EE05CD /* MovieService.swift */,
+				830BFBB7200C56A70058DFE2 /* CoreDataService.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -357,11 +363,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				83367E481FBE81AF00C9FA20 /* MovieCell.swift in Sources */,
+				830BFBB6200C4E830058DFE2 /* LibraryCell.swift in Sources */,
 				8365B1D71FF7974D00C03C11 /* ActionCell.swift in Sources */,
 				839A76BD1FF8142C0036A581 /* ComedyCell.swift in Sources */,
 				833DE6671FB8320700EE05CD /* MovieService.swift in Sources */,
 				839A76BF1FF814760036A581 /* ComedyViewController.swift in Sources */,
 				833DE65F1FB79A5A00EE05CD /* MainPageViewController.swift in Sources */,
+				830BFBB8200C56A70058DFE2 /* CoreDataService.swift in Sources */,
 				833DE66B1FB85EE900EE05CD /* LibraryPage.swift in Sources */,
 				839A76C31FF85BA40036A581 /* SportsCell.swift in Sources */,
 				8345272B1FF622E0000E738D /* ActionViewController.swift in Sources */,

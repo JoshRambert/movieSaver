@@ -8,7 +8,16 @@
 
 import Foundation
 import UIKit
+import CoreData
 
-class LibraryPageViewController: UIViewController {
+class LibraryPageViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+    //Call the functions for the table View
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        <#code#>
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        <#code#>
+    }
     
 }

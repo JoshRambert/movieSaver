@@ -13,11 +13,19 @@ import CoreData
 class LibraryPageViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     //Call the functions for the table View
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        <#code#>
+        return movieInfoFetcheResultsController.sections?.first?.numberOfObjects ?? 0
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        <#code#>
+        let cell = tableView.dequeueReusableCell(withIdentifier: "LibraryCell", for: indexPath)
+        
+        let movieInfo = movieInfoFetcheResultsController.object(at: indexPath)
+        cell.textLabel?.text = movieInfo.title
+        cell.detailTextLabel?.text = movieInfo.descrip
+        
+        return cell 
     }
     
+    @IBOutlet private weak var libraryTable: UITableView!
+    private var movieInfoFetcheResultsController: NSFetchedResultsController<MovieInfo>!
 }

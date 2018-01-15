@@ -10,8 +10,9 @@ import Foundation
 import CoreData
 
 class CoreDataService {
+    
     //Create the Fetch requests for the the titles and description of the shit
-    private func createFetchResultsController<T>(for fetchRequest: NSFetchRequest<T>) -> NSFetchedResultsController<T> {
+    private func createFetchResultsController<MovieInfo>(for fetchRequest: NSFetchRequest<MovieInfo>) -> NSFetchedResultsController<MovieInfo> {
         let fetchedResultsController = NSFetchedResultsController(fetchRequest: fetchRequest, managedObjectContext: persistentContainer.viewContext, sectionNameKeyPath: nil, cacheName: nil)
         do {
             try fetchedResultsController.performFetch()
@@ -21,7 +22,6 @@ class CoreDataService {
         }
         return fetchedResultsController
     }
-    
     private let persistentContainer: NSPersistentContainer
     
     private init(){
@@ -29,5 +29,19 @@ class CoreDataService {
     }
     
     //Create the functions that will get the title and the description from the CoreData file
+    func movieTitle() -> NSFetchedResultsController<MovieInfo>{
+        let fetchReqeust: NSFetchRequest<MovieInfo> = MovieInfo.fetchRequest();
+        fetchReqeust.sortDescriptors = [NSSortDescriptor(key: "title", ascending: true)]
+        
+        return createFetchResultsController(for: fetchReqeust)
+    }
     
+    func movieDescription() -> NSFetchedResultsController<MovieInfo>{
+        let fetchRequest: NSFetchRequest<MovieInfo> = MovieInfo.fetchRequest();
+        fetchRequest.sortDescriptors = [NSSortDescriptor(key: "descrip", ascending: true)]
+        
+        return createFetchResultsController(for: fetchRequest)
+    }
+    
+    static let share = CoreDataService();
 }
